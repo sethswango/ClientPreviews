@@ -4,99 +4,149 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Kidsister site updates, round 1</title>
+<title>Kidsister | A few site updates to look over</title>
+<meta name="description" content="Before and afters of the wording updates, plus collaborators and case-study filter drafts for our call.">
 <style>
-:root{--ink:#232620;--paper:#f3f0e4;--yellow:#f0c146;--grey:#6b6a63;--rust:#b0553b;--line:#cfcaba;--card:#fff}
+@font-face{font-family:Gelica;src:url("https://framerusercontent.com/assets/KuEZ8DSUjEw5a4BzpW0wexwYMQ.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"General Sans";src:url("https://framerusercontent.com/assets/qK8x3dBkAdwT7mBv3LHsJPyO52w.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+:root{--ink:#232620;--cream:#f3f0e4;--yellow:#f0c146;--coral:#de6150}
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Georgia,"Times New Roman",serif}
-.wrap{max-width:820px;margin:0 auto;padding:48px 22px 80px}
-header{border-bottom:3px solid var(--ink);padding-bottom:18px;margin-bottom:8px}
-h1{font-family:Helvetica,Arial,sans-serif;font-size:30px;line-height:1.15;margin:0 0 6px;text-wrap:balance}
-.meta{color:var(--grey);font-family:Helvetica,Arial,sans-serif;font-size:13px}
-h2{font-family:Helvetica,Arial,sans-serif;font-size:20px;margin:38px 0 10px}
-p{margin:0 0 12px}
-.cta{background:var(--card);border-left:6px solid var(--yellow);padding:18px 20px;margin:24px 0;border-radius:0 6px 6px 0}
-.cta a{font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:700;color:var(--ink);word-break:break-all}
-.cta .sub{color:var(--grey);font-size:14px;margin:6px 0 0}
-table{border-collapse:collapse;width:100%;margin:10px 0 16px;font-family:Helvetica,Arial,sans-serif;font-size:14px}
-th{text-align:left;background:#e9e4d2;border-bottom:2px solid var(--ink);padding:8px 10px}
-td{border-bottom:1px solid var(--line);padding:9px 10px;vertical-align:top}
-td.where{white-space:nowrap;font-weight:700;width:120px}
-td.after{background:#fdf7e3}
-mark{background:var(--yellow);color:var(--ink);padding:0 2px;border-radius:2px}
-.tablewrap{overflow-x:auto}
-.values{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:14px 18px;font-family:Helvetica,Arial,sans-serif;font-size:14px}
-.values dt{font-weight:700;margin-top:8px}
-.values dd{margin:0}
-figure{margin:18px 0}
-figure img{max-width:100%;border:1px solid var(--line);border-radius:6px;display:block}
-figcaption{color:var(--grey);font-family:Helvetica,Arial,sans-serif;font-size:13px;margin-top:6px}
-.figs{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
-@media(max-width:640px){.figs{grid-template-columns:1fr}td.where{white-space:normal;width:auto}}
-footer{margin-top:56px;border-top:1px solid var(--ink);padding-top:12px;color:var(--grey);font-size:13px;font-style:italic}
+html{scroll-behavior:smooth;scroll-padding-top:28px}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:"General Sans",Arial,sans-serif;font-size:16px;font-weight:500;line-height:1.6}
+a{color:inherit;text-underline-offset:4px;text-decoration-thickness:1px}
+a:hover{color:var(--coral)}
+a:focus-visible{outline:3px solid var(--ink);outline-offset:6px}
+h1,h2,h3{font-family:Gelica,Georgia,serif;font-weight:600;text-wrap:balance}
+h1{font-size:clamp(44px,6vw,64px);line-height:1.02;letter-spacing:-.035em;max-width:800px;margin:28px auto}
+h2{font-size:40px;line-height:1.1;letter-spacing:-.01em;margin:0 0 24px}
+h3{font-size:27px;line-height:1.3;letter-spacing:-.025em;margin:0 0 12px}
+p{margin:0 0 20px}
+p:last-child{margin-bottom:0}
+.wrap{width:min(1120px,calc(100% - 96px));margin:auto}
+.masthead{display:flex;justify-content:space-between;align-items:center;gap:24px;padding-top:32px}
+.wordmark{font-family:Gelica,Georgia,serif;font-size:28px;letter-spacing:-.055em}
+.masthead p{font-size:14px;margin:0}
+.hero{text-align:center;padding:52px 0 80px}
+.hero .intro{font-size:20px;line-height:1.5;max-width:740px;margin:0 auto 32px}
+.pill{display:inline-flex;justify-content:center;align-items:center;background:var(--yellow);border:1px solid var(--ink);border-radius:100px;box-shadow:4px 4px 0 var(--ink);padding:12px 24px;text-decoration:none;line-height:1.5}
+.pill:hover{color:var(--ink);transform:translate(1px,1px);box-shadow:3px 3px 0 var(--ink)}
+.jump{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:center;margin-top:38px;font-size:14px}
+section{padding:88px 0}
+.band{background:var(--yellow)}
+.section-intro{max-width:740px;margin-bottom:52px}
+.section-intro>p{font-size:19px}
+.kicker{font-size:14px;letter-spacing:.04em;margin-bottom:16px}
+.edit{margin-top:64px}
+.edit:first-of-type{margin-top:0}
+.edit-head{display:flex;gap:24px;align-items:baseline;justify-content:space-between;margin-bottom:20px}
+.edit-head p{max-width:680px}
+.page-link{white-space:nowrap;font-size:14px}
+.compare{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px}
+.wording{margin-top:22px;margin-bottom:28px}
+.wording>div{padding:24px 0;border-top:1px solid var(--ink)}
+.wording>div:last-child{border-top:3px solid var(--ink);padding-top:22px}
+.label,figcaption{font-size:14px;line-height:1.4;letter-spacing:.02em;margin:0 0 12px}
+.wording p:not(.label){font-size:18px;line-height:1.55}
+figure{margin:0;min-width:0}
+.image-link{display:block;border-radius:8px;overflow:hidden;background:#fff;border:1px solid rgba(35,38,32,.22)}
+img{display:block;width:100%;height:auto}
+figure figcaption{margin-bottom:12px}
+.image-note{font-size:14px;margin-top:20px}
+.manual{margin-top:64px;padding-top:40px;border-top:1px solid var(--ink)}
+.manual .wording{margin-bottom:0}
+.narrow{max-width:740px}
+dl{margin:28px 0 0}
+dl>div{display:grid;grid-template-columns:180px 1fr;gap:24px;padding:14px 0;border-top:1px solid rgba(35,38,32,.25)}
+dt,dd{margin:0}
+dt{font-size:14px}
+dd{font-size:16px}
+.draft+.draft{margin-top:80px}
+.draft .screenshots{margin-top:32px}
+.credits-list{columns:2;column-gap:48px;margin:28px 0 0}
+.credits-list p{break-inside:avoid;margin-bottom:20px}
+.credits-list strong{display:block;font-weight:500;text-decoration:underline;text-underline-offset:4px;margin-bottom:4px}
+.pending{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+.pending p{max-width:470px}
+.pending .label{margin-top:28px}
+.form-shots{max-width:840px;margin-top:32px}
+.form-shots img{max-height:620px;object-fit:contain;background:var(--cream)}
+.extra-item{margin-top:56px}
+.close{padding:80px 0;background:var(--ink);color:var(--cream)}
+.close h2{max-width:650px}
+.close p{max-width:700px;font-size:19px}
+.signoff{margin-top:32px}
+footer{padding:28px 0;background:var(--ink);color:var(--cream);font-size:14px}
+footer .wrap{border-top:1px solid rgba(243,240,228,.3);padding-top:24px}
+@media(max-width:809px){
+.wrap{width:calc(100% - 48px)}.masthead{padding-top:24px;gap:12px}.wordmark{font-size:25px}.masthead p{font-size:12px}
+.hero{padding:44px 0 56px}h1{font-size:44px;line-height:1.02;margin-top:24px;margin-bottom:24px}.hero .intro{font-size:17px;line-height:1.55}h2{font-size:32px}h3{font-size:24px}
+section{padding:56px 0}.section-intro{margin-bottom:36px}.section-intro>p{font-size:17px}.edit{margin-top:48px}.edit-head{display:block}.page-link{display:inline-block;margin-top:10px}
+.compare,.pending{grid-template-columns:1fr;gap:24px}.wording{gap:0}.wording p:not(.label){font-size:16px}.wording>div{padding:20px 0}.wording>div:last-child{padding-top:18px}
+.screenshots{gap:28px}.screenshots figure{max-width:460px;width:100%;margin:auto}.image-note{font-size:13px}
+.manual{margin-top:44px;padding-top:28px}.credits-list{columns:1}.draft+.draft{margin-top:56px}.pending{gap:48px}
+dl>div{grid-template-columns:1fr;gap:6px}.close{padding:56px 0}.close p{font-size:17px}.jump{gap:14px 20px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{.wrap{width:100%}.pill,.jump{display:none}section{padding:28px 0}.screenshots{break-inside:avoid}.close,footer{background:var(--cream);color:var(--ink)}}
 </style>
 </head>
 <body>
-<div class="wrap">
-<header>
-<h1>Kidsister site updates, round 1</h1>
-<div class="meta">For Bayless and Ashley, from Seth &middot; September 2026 &middot; kidsister.co</div>
-</header>
-
-<div class="cta">
-<a href="https://teal-exercise-583649.framer.app" target="_blank" rel="noopener">teal-exercise-583649.framer.app</a>
-<p class="sub">A working copy of the site with round 1 applied. Nothing on kidsister.co has changed yet. Click around the way a visitor would; every page is real.</p>
+<header class="wrap masthead"><span class="wordmark">kidsister</span><p>Site updates · September 2026</p></header>
+<main>
+<div class="wrap hero">
+<h1>A few site updates to look over</h1>
+<p class="intro">Hey Bayless, I’ve got the wording updates ready to look through. The before and afters are below, along with a couple of drafts for our design call. These are on the preview site; kidsister.co hasn’t changed.</p>
+<a class="pill" href="https://teal-exercise-583649.framer.app/" target="_blank" rel="noopener">Open the preview ↗</a>
+<nav class="jump" aria-label="On this page"><a href="#wording">Wording changes</a><a href="#search-details">Search details</a><a href="#drafts">For our call</a><a href="#remaining">Photos &amp; service pages</a><a href="#fixes">A few fixes</a></nav>
 </div>
-
-<p>Round 1 is the wording work that needed nothing from your side: saying where you are, naming the services in your own words on About and Services, and the small block of code that tells Google who Kidsister is. The design pieces (credits, the case study filters, the Big Blanket photos, the service pages) come in round 2 after our call.</p>
-
-<h2>What changed, word for word</h2>
-<div class="tablewrap">
-<table>
-<thead><tr><th>Where</th><th>Before</th><th>After</th></tr></thead>
-<tbody>
-<tr><td class="where">Footer, every page</td><td>&copy; 2026 Kidsister</td><td class="after">&copy; 2026 Kidsister<mark>, Springfield, MO</mark></td></tr>
-<tr><td class="where">Services, last paragraph</td><td>Kidsister specializes in the services above, but that doesn&rsquo;t mean the ball stops there.</td><td class="after"><mark>Based in Springfield, Missouri,</mark> Kidsister specializes in the services above, but that doesn&rsquo;t mean the ball stops there.</td></tr>
-<tr><td class="where">Services, team paragraph</td><td>We&rsquo;re a lean, scrappy little team that churns out high-quality, high-performing content like it&rsquo;s our job.</td><td class="after">We&rsquo;re a lean, scrappy little team <mark>of photographers, designers, copywriters, and brand strategists</mark> that churns out high-quality, high-performing content like it&rsquo;s our job.</td></tr>
-<tr><td class="where">Contact, intro line</td><td>We wanna hear all about what you&rsquo;ve got goin&rsquo; on to see where we can jump in. 👇</td><td class="after"><mark>We&rsquo;re in Springfield, MO and</mark> we wanna hear all about what you&rsquo;ve got goin&rsquo; on to see where we can jump in. 👇</td></tr>
-<tr><td class="where">About, first paragraph</td><td>Kidsister is a woman-owned studio agency located in Springfield, MO that specializes in asset creation for small businesses.</td><td class="after">Kidsister is a woman-owned studio agency located in Springfield, MO that specializes in asset creation for small businesses<mark>: commercial photography, brand strategy, copywriting, and design</mark>.</td></tr>
-</tbody>
-</table>
-</div>
-<p>The rest of each paragraph is untouched, and nothing on the case study pages changed.</p>
-
-<h2>One thing we noticed on the way</h2>
-<p>On phones, the contact form had grown a little taller than the frame holding it, so the Submit button and the captcha sat just below the edge with no way to scroll to them. On the working copy the frame now grows with the form, so the whole thing is reachable on any phone. Nothing about the form itself changed. It rides along with this round, so your OK covers it too.</p>
-
-<div class="figs">
-<figure><img src="footer-phone.png" alt="The site footer on a phone, reading © 2026 Kidsister, Springfield, MO" width="390"><figcaption>Footer on a phone</figcaption></figure>
-<figure><img src="footer-desktop.png" alt="The site footer on a desktop screen, reading © 2026 Kidsister, Springfield, MO" width="1440"><figcaption>Footer on a desktop</figcaption></figure>
-</div>
-
-<h2>Two things you will only see once it goes live</h2>
-<p>The working copy can&rsquo;t show these, so they are written out here instead.</p>
-<div class="tablewrap">
-<table>
-<thead><tr><th>Where</th><th>Before</th><th>After</th></tr></thead>
-<tbody>
-<tr><td class="where">Homepage title (the browser tab and the Google result)</td><td>Kidsister | Woman-Owned, Creative-Led Marketing Content</td><td class="after">Kidsister | Woman-Owned <mark>Marketing Studio in Springfield, MO</mark></td></tr>
-</tbody>
-</table>
-</div>
-<p>And the code block for Google. It is invisible on the page; it tells search engines, in their own format, exactly this:</p>
-<dl class="values">
-<dt>Name</dt><dd>Kidsister</dd>
-<dt>Website</dt><dd>kidsister.co</dd>
-<dt>What you do</dt><dd>Kidsister is a woman-owned creative agency that empowers businesses with photography, design, social, strategy, and more to amplify your marketing.</dd>
-<dt>Where</dt><dd>Springfield, Missouri, and the surrounding Ozarks</dd>
-<dt>Your profiles</dt><dd>Facebook, Instagram, and LinkedIn, the same three linked in the footer</dd>
-</dl>
-<p>No phone number or street address is included, since the site doesn&rsquo;t publish one. If you ever want either public, it is a one-line addition.</p>
-
-<h2>To approve</h2>
-<p>Reply with an OK, or with anything you&rsquo;d like worded differently. Once you say go, I publish these in one step and check the live pages the same day. Anything you change your mind on later is a quick edit, not a project.</p>
-
-<footer>Prepared by Seth Swango for Kidsister Creative &middot; September 2026</footer>
-</div>
+<section id="wording" class="band"><div class="wrap">
+<div class="section-intro"><p class="kicker">On the preview</p><h2>Location and service wording</h2><p>I added Springfield where it was missing and worked the service names into the About and Services copy. About already named Springfield, so I left that part alone.</p><p>Here’s each changed sentence, with a look at it on the page.</p></div>
+<article class="edit" id="about"><div class="edit-head"><div><h3>About</h3><p>The opening now names the services behind “asset creation.”</p></div><a class="page-link" href="https://teal-exercise-583649.framer.app/about" target="_blank" rel="noopener">View page ↗</a></div><div class="compare wording"><div><p class="label">Before</p><p>Kidsister is a woman-owned studio agency located in Springfield, MO that specializes in asset creation for small businesses.</p></div><div><p class="label">After</p><p>Kidsister is a woman-owned studio agency located in Springfield, MO that specializes in asset creation for small businesses: commercial photography, brand strategy, copywriting, and design.</p></div></div><div class="compare screenshots"><figure><figcaption>Before · kidsister.co</figcaption><a class="image-link" href="evidence/about-before-desktop.png" target="_blank" rel="noopener" aria-label="Open about before screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/about-before-phone.png"><img src="evidence/about-before-desktop.png" alt="about: current site" loading="lazy"></picture></a></figure><figure><figcaption>After · preview</figcaption><a class="image-link" href="evidence/about-after-desktop.png" target="_blank" rel="noopener" aria-label="Open about after screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/about-after-phone.png"><img src="evidence/about-after-desktop.png" alt="about: preview" loading="lazy"></picture></a></figure></div></article>
+<article class="edit" id="services-team"><div class="edit-head"><div><h3>Services: the team</h3><p>A little more detail about what the team does, in the existing paragraph.</p></div><a class="page-link" href="https://teal-exercise-583649.framer.app/services" target="_blank" rel="noopener">View page ↗</a></div><div class="compare wording"><div><p class="label">Before</p><p>We’re a lean, scrappy little team that churns out high-quality, high-performing content like it’s our job.</p></div><div><p class="label">After</p><p>We’re a lean, scrappy little team of photographers, designers, copywriters, and brand strategists that churns out high-quality, high-performing content like it’s our job.</p></div></div><div class="compare screenshots"><figure><figcaption>Before · kidsister.co</figcaption><a class="image-link" href="evidence/services-team-before-desktop.png" target="_blank" rel="noopener" aria-label="Open services-team before screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/services-team-before-phone.png"><img src="evidence/services-team-before-desktop.png" alt="services team: current site" loading="lazy"></picture></a></figure><figure><figcaption>After · preview</figcaption><a class="image-link" href="evidence/services-team-after-desktop.png" target="_blank" rel="noopener" aria-label="Open services-team after screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/services-team-after-phone.png"><img src="evidence/services-team-after-desktop.png" alt="services team: preview" loading="lazy"></picture></a></figure></div></article>
+<article class="edit" id="services-location"><div class="edit-head"><div><h3>Services: location</h3><p>Springfield is now in the closing paragraph, too.</p></div><a class="page-link" href="https://teal-exercise-583649.framer.app/services" target="_blank" rel="noopener">View page ↗</a></div><div class="compare wording"><div><p class="label">Before</p><p>Kidsister specializes in the services above, but that doesn't mean the ball stops there.</p></div><div><p class="label">After</p><p>Based in Springfield, Missouri, Kidsister specializes in the services above, but that doesn't mean the ball stops there.</p></div></div><div class="compare screenshots"><figure><figcaption>Before · kidsister.co</figcaption><a class="image-link" href="evidence/services-location-before-desktop.png" target="_blank" rel="noopener" aria-label="Open services-location before screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/services-location-before-phone.png"><img src="evidence/services-location-before-desktop.png" alt="services location: current site" loading="lazy"></picture></a></figure><figure><figcaption>After · preview</figcaption><a class="image-link" href="evidence/services-location-after-desktop.png" target="_blank" rel="noopener" aria-label="Open services-location after screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/services-location-after-phone.png"><img src="evidence/services-location-after-desktop.png" alt="services location: preview" loading="lazy"></picture></a></figure></div></article>
+<article class="edit" id="contact-intro"><div class="edit-head"><div><h3>Contact</h3><p>The introduction now says where you’re based.</p></div><a class="page-link" href="https://teal-exercise-583649.framer.app/contact" target="_blank" rel="noopener">View page ↗</a></div><div class="compare wording"><div><p class="label">Before</p><p>We wanna hear all about what you've got goin' on to see where we can jump in. 👇</p></div><div><p class="label">After</p><p>We’re in Springfield, MO and we wanna hear all about what you’ve got goin’ on to see where we can jump in. 👇</p></div></div><div class="compare screenshots"><figure><figcaption>Before · kidsister.co</figcaption><a class="image-link" href="evidence/contact-intro-before-desktop.png" target="_blank" rel="noopener" aria-label="Open contact-intro before screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/contact-intro-before-phone.png"><img src="evidence/contact-intro-before-desktop.png" alt="contact intro: current site" loading="lazy"></picture></a></figure><figure><figcaption>After · preview</figcaption><a class="image-link" href="evidence/contact-intro-after-desktop.png" target="_blank" rel="noopener" aria-label="Open contact-intro after screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/contact-intro-after-phone.png"><img src="evidence/contact-intro-after-desktop.png" alt="contact intro: preview" loading="lazy"></picture></a></figure></div></article>
+<article class="edit" id="footer"><div class="edit-head"><div><h3>The footer</h3><p>The location line appears across the site.</p></div><a class="page-link" href="https://teal-exercise-583649.framer.app/" target="_blank" rel="noopener">View the preview ↗</a></div><div class="compare wording"><div><p class="label">Before</p><p>© 2026 Kidsister</p></div><div><p class="label">After</p><p>© 2026 Kidsister, Springfield, MO</p></div></div><div class="compare screenshots"><figure><figcaption>Before · kidsister.co</figcaption><a class="image-link" href="evidence/footer-before-desktop.png" target="_blank" rel="noopener" aria-label="Open footer before screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/footer-before-phone.png"><img src="evidence/footer-before-desktop.png" alt="footer: current site" loading="lazy"></picture></a></figure><figure><figcaption>After · preview</figcaption><a class="image-link" href="evidence/footer-after-desktop.png" target="_blank" rel="noopener" aria-label="Open footer after screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/footer-after-phone.png"><img src="evidence/footer-after-desktop.png" alt="footer: preview" loading="lazy"></picture></a></figure></div></article>
+<p class="image-note">Tap any screenshot to open it full size. Phone screenshots appear on smaller screens; desktop screenshots appear on wider screens.</p>
+<article class="manual" id="homepage-title"><p class="kicker">Prepared for publishing</p><h3>The homepage title</h3><p class="narrow">This is the title used by the browser and available to search engines, rather than the heading on the page. I’ll update it when the approved changes go live, so the preview still has the current title.</p><div class="compare wording"><div><p class="label">Before</p><p>Kidsister | Woman-Owned, Creative-Led Marketing Content</p></div><div><p class="label">After</p><p>Kidsister | Woman-Owned Marketing Studio in Springfield, MO</p></div></div></article>
+</div></section>
+<section id="search-details"><div class="wrap">
+<div class="section-intro"><p class="kicker">Prepared for publishing</p><h2>Business details for search engines</h2><p>I’ve prepared the structured data addition. It gives search engines your business details and social profiles in a format they can read. It won’t change how the pages look.</p></div>
+<div class="compare wording"><div><p class="label">Before</p><p>No Organization structured data on the site.</p></div><div><p class="label">After publishing</p><p>An Organization entry identifying Kidsister, its website, Springfield location, and Facebook, Instagram, and LinkedIn profiles.</p></div></div>
+<dl class="narrow"><div><dt>Business</dt><dd>Kidsister</dd></div><div><dt>Description</dt><dd>Kidsister is a woman-owned creative agency that empowers businesses with photography, design, social, strategy, and more to amplify your marketing.</dd></div><div><dt>Website</dt><dd><a href="https://kidsister.co/" target="_blank" rel="noopener">kidsister.co</a></dd></div><div><dt>Location</dt><dd>Springfield, MO, US</dd></div><div><dt>Social profiles</dt><dd><a href="https://www.facebook.com/kidsister.co/" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/kidsister.co/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.linkedin.com/company/kidsister/" target="_blank" rel="noopener">LinkedIn</a></dd></div></dl>
+<p class="narrow" style="margin-top:28px">I’ll add this when the approved updates go live, then check it on kidsister.co. It isn’t installed on the preview.</p>
+</div></section>
+<section id="drafts" class="band"><div class="wrap">
+<div class="section-intro"><p class="kicker">Drafts for our call</p><h2>Credits and case-study filters</h2><p>I put together an example of each so we have something to look at together. The placement and layout are still open.</p></div>
+<article class="draft" id="collaborators"><h3>Collaborators</h3><p class="narrow">I tried the credits below the conclusion on Culture Flock, before the testimonial, using the page’s existing type and spacing. We can go through the placement on our call before I add them to the other three studies.</p>
+<p><a href="https://teal-exercise-583649.framer.app/zz-credits-draft" target="_blank" rel="noopener">Look at the Culture Flock draft ↗</a></p>
+<div class="compare screenshots"><figure><figcaption>Before · kidsister.co</figcaption><a class="image-link" href="evidence/credits-before-desktop.png" target="_blank" rel="noopener" aria-label="Open credits before screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/credits-before-phone.png"><img src="evidence/credits-before-desktop.png" alt="credits: current site" loading="lazy"></picture></a></figure><figure><figcaption>After · placement draft</figcaption><a class="image-link" href="evidence/credits-after-desktop.png" target="_blank" rel="noopener" aria-label="Open credits after screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/credits-after-phone.png"><img src="evidence/credits-after-desktop.png" alt="credits: preview" loading="lazy"></picture></a></figure></div>
+<div class="credits-list" aria-label="Credits from your task list"><p><strong>Garlic Girl</strong>Kylee Compton · Illustration</p><p><strong>Culture Flock</strong>Allison Jester · Content Editing<br>Sarah Stracke · Social Strategy</p><p><strong>Automobiles Unlimited</strong>Ryan Saunders · Brand Development, Site Design</p><p><strong>Big Blanket Co</strong>Paul Simmons · Lead Grip + Gaff<br>Annie Elzey · Digital Marketing Strategy</p></div>
+</article>
+<article class="draft" id="case-study-filters"><h3>Case-study filters</h3><p class="narrow">The filters are working with the categories from your list: Branding, Design, Photo, Print, Social Media, and Website Design. The layout is a draft for our call.</p><p class="narrow">Big Blanket is under All for now since it wasn’t in the category table. We can pick its categories and look at the labels and layout together.</p><p><a href="https://teal-exercise-583649.framer.app/zz-filter-spike" target="_blank" rel="noopener">Try the filter draft ↗</a></p>
+<div class="compare screenshots"><figure><figcaption>Before · kidsister.co</figcaption><a class="image-link" href="evidence/filters-before-desktop.png" target="_blank" rel="noopener" aria-label="Open filters before screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/filters-before-phone.png"><img src="evidence/filters-before-desktop.png" alt="filters: current site" loading="lazy"></picture></a></figure><figure><figcaption>After · working filter draft</figcaption><a class="image-link" href="evidence/filters-after-desktop.png" target="_blank" rel="noopener" aria-label="Open filters after screenshot full size"><picture><source media="(max-width: 809px)" srcset="evidence/filters-after-phone.png"><img src="evidence/filters-after-desktop.png" alt="filters: preview" loading="lazy"></picture></a></figure></div>
+</article>
+</div></section>
+<section id="remaining"><div class="wrap">
+<div class="section-intro"><h2>Photos and service pages</h2><p>These are still to come once the materials are in.</p></div>
+<div class="pending">
+<article><h3>Big Blanket Co photos</h3><p class="label">Now</p><p>The existing photo galleries are unchanged.</p><p class="label">Next</p><p>I’ll add the extra photos to the case study once I have access to the folder linked in your task list.</p><p><a href="https://kidsister.co/big-blanket" target="_blank" rel="noopener">View the current Big Blanket page ↗</a></p></article>
+<article><h3>Two service pages</h3><p class="label">Now</p><p>The services are together on the Services page. The two new pages haven’t been built yet.</p><p class="label">Next</p><p>Once you’ve picked the two services and sent the copy, I’ll build a page for each with the service and Springfield in its title and heading, links to relevant case studies, and a link from Services.</p><p><a href="https://kidsister.co/services" target="_blank" rel="noopener">View the current Services page ↗</a></p></article>
+</div></div></section>
+<section id="fixes" class="band"><div class="wrap">
+<div class="section-intro"><h2>A few fixes along the way</h2><p>I also found a phone layout issue on Contact. The bottom of the form was cut off, hiding the captcha and Submit button. The preview gives the form more room.</p></div>
+<div class="compare screenshots form-shots"><figure><figcaption>Before · bottom of the form cut off</figcaption><a class="image-link" href="evidence/form-before-phone.png" target="_blank" rel="noopener"><img src="evidence/form-before-phone.png" alt="Current Contact page on a phone, with the form cut off before the captcha and Submit button" loading="lazy"></a></figure><figure><figcaption>After · captcha and Submit visible</figcaption><a class="image-link" href="evidence/form-after-phone.png" target="_blank" rel="noopener"><img src="evidence/form-after-phone.png" alt="Preview Contact page on a phone, showing the captcha and Submit button" loading="lazy"></a></figure></div>
+<p style="margin-top:28px"><a href="https://teal-exercise-583649.framer.app/contact" target="_blank" rel="noopener">View Contact on the preview ↗</a></p>
+<article class="extra-item"><h3>Small cleanups</h3><p class="narrow">I hid the homepage’s alien and peace-sign decorations on phones where they were covering the copy and a project title, corrected “Culture Flcok” in the testimonial credit, and moved the About page’s flower into the margin so it clears the longer paragraph.</p></article>
+<article class="extra-item"><p class="label">Homepage · phone</p><div class="compare screenshots"><figure><figcaption>Before · kidsister.co</figcaption><a class="image-link" href="evidence/home-decoration-before.png" target="_blank" rel="noopener"><img src="evidence/home-decoration-before.png" alt="Homepage phone decoration before the fix" loading="lazy"></a></figure><figure><figcaption>After · preview</figcaption><a class="image-link" href="evidence/home-decoration-after.png" target="_blank" rel="noopener"><img src="evidence/home-decoration-after.png" alt="Homepage phone decoration after the fix" loading="lazy"></a></figure></div></article>
+<article class="extra-item"><p class="label">Culture Flock · testimonial credit</p><div class="compare screenshots"><figure><figcaption>Before · kidsister.co</figcaption><a class="image-link" href="evidence/attribution-before.png" target="_blank" rel="noopener"><img src="evidence/attribution-before.png" alt="Culture Flock testimonial credit before the fix" loading="lazy"></a></figure><figure><figcaption>After · preview</figcaption><a class="image-link" href="evidence/attribution-after.png" target="_blank" rel="noopener"><img src="evidence/attribution-after.png" alt="Culture Flock testimonial credit after the fix" loading="lazy"></a></figure></div></article>
+<article class="extra-item"><p class="label">About · desktop</p><div class="compare screenshots"><figure><figcaption>Before · kidsister.co</figcaption><a class="image-link" href="evidence/about-flower-before.png" target="_blank" rel="noopener"><img src="evidence/about-flower-before.png" alt="About page flower beside the copy before the fix" loading="lazy"></a></figure><figure><figcaption>After · preview</figcaption><a class="image-link" href="evidence/about-flower-after.png" target="_blank" rel="noopener"><img src="evidence/about-flower-after.png" alt="About page flower beside the copy after the fix" loading="lazy"></a></figure></div></article>
+<!-- ADDITIONAL_FIX_EVIDENCE: verified layout fixes above. -->
+</div></section>
+<section class="close" id="approval"><div class="wrap"><h2>How’s it looking?</h2><p>If the wording and layout fixes look good, I can move them over after your okay, along with the homepage title and business details above. Anything you’d phrase differently, just point me to it.</p><p>We can go through the credits and filter layout on our call. For the remaining pieces, I’ll need the Big Blanket folder access, the service-page copy, and which two services you’d like to start with.</p><p class="signoff">Thanks!<br>Seth</p></div></section>
+</main>
+<footer><div class="wrap">The preview’s “Made in Framer” badge won’t appear on kidsister.co.</div></footer>
+<script>
+document.querySelectorAll(".image-link").forEach(link=>link.addEventListener("click",()=>{const img=link.querySelector("img");if(img&&img.currentSrc)link.href=img.currentSrc}));
+</script>
 </body>
 </html>

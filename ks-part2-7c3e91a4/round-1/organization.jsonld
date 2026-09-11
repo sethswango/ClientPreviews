@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://kidsister.co/#organization",
+  "name": "Kidsister",
+  "url": "https://kidsister.co/",
+  "description": "Kidsister is a woman-owned creative agency that empowers businesses with photography, design, social, strategy, and more to amplify your marketing.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Springfield",
+    "addressRegion": "MO",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://www.facebook.com/kidsister.co/",
+    "https://www.instagram.com/kidsister.co/",
+    "https://www.linkedin.com/company/kidsister/"
+  ]
+}
