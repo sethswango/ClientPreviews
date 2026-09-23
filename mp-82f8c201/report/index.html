@@ -200,7 +200,7 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
   figure{margin:10px 0 4px}
   figure .frame{padding:8px 10px 4px}
   .chart-title{font-size:8pt}
-  .card,.stat,figure .frame,.film,.finding h3,tr,.todo li,ol.qs li,.evidence,.note,.expect,.quote,.shots,figcaption{break-inside:avoid}
+  .card,.stat,.brief-card,figure .frame,.film,.finding h3,tr,.todo li,ol.qs li,.evidence,.note,.expect,.quote,.shots,figcaption{break-inside:avoid}
   h2,h3,.sec-head,.kicker,.chart-title{break-after:avoid}
   .tw{overflow:visible}
   table{font-size:8.6pt}
@@ -226,7 +226,7 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
   .internal{padding:12px 14px;break-inside:avoid}
   a{text-decoration:none}
   .brk{break-before:auto}
-  #brief{break-before:page}
+  #brief{break-before:auto}
   .chips{display:none}
   .spec dt{break-after:avoid}
   .sec-head{break-inside:avoid}
@@ -239,14 +239,14 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
 
 <header class="masthead">
   <span class="wordmark">Madison Petersen, LCSW, PMH-C</span>
-  <span>Search report · first draft for Kidsister · 23 September 2026</span>
+  <span>Search report · Seth Swango for Kidsister · 23 September 2026</span>
 </header>
 
 <div class="hero">
   <p class="kicker">For Bayless to react to · not client-facing yet</p>
-  <h1>Who finds Madi online today, and how more of the right people could</h1>
-  <p class="intro">Hey Bayless, this is the big version we talked about on the call. Tell me what's useful, what's too much and what you'd want more of; the next round gets cut down for Madi. Every number names its source, and my judgments are marked <span class="tag">our read</span>.</p>
-  <p class="decision"><strong>The short version.</strong> Use your ten hours on the homepage, About, a provider referral page and the questions moms ask. First, Madi confirms her practice facts and referral route. Seth checks the live pages and measurement after approved changes. Missouri waits for confirmed authority and openings.</p>
+  <h1>Madison Petersen: search findings and next steps</h1>
+  <p class="intro">Hey Bayless, here is the draft with the booking route up front. The site already offers a free 20 minute consult. The clearest near-term work is to make that offer visible sooner, send new visitors to the request screen, and measure contact attempts without treating them as appointments.</p>
+  <p class="decision"><strong>Where we'd start.</strong> Bayless puts the free consult and confirmed service details beside the first booking button on Home and About. Madi checks the offer, fees, insurance answer, locations and availability. She can point booking buttons to the existing request screen and make the footer phone tappable. Seth tests those routes and compares booking clicks with Madi's aggregate consult requests. Missouri waits for confirmed authority and openings.</p>
   <div class="chips">
     <span class="src">Site: madisonpetersenllc.com · Squarespace 7.1</span>
     <span class="src">Crawl and speed tests: 9 and 23 Sep 2026</span>
@@ -255,7 +255,7 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
     <span class="src">Live Google results and listings: 23 Sep 2026</span>
   </div>
   <nav class="toc" aria-label="Sections">
-    <a href="#summary">Summary</a><a href="#search">What people search</a><a href="#results">Where she shows up</a><a href="#technical">The site itself</a><a href="#local">Listings and referrals</a><a href="#ai">AI assistants</a><a href="#compare">Other practices</a><a href="#analytics">Analytics</a><a href="#brief">Copy brief</a><a href="#madi">Madi's list</a><a href="#questions">Questions for Madi</a><a href="#missouri">Missouri</a><a href="#measure">Baseline and check-ins</a><a href="#appendix">Ready-to-use pieces</a>
+    <a href="#summary">Summary</a><a href="#path">Booking route</a><a href="#search">Google searches</a><a href="#results">Local results</a><a href="#technical">Website fixes</a><a href="#local">Listings</a><a href="#ai">AI checks</a><a href="#analytics">Visits</a><a href="#brief">Page copy</a><a href="#madi">Madi's list</a><a href="#questions">Facts to confirm</a><a href="#missouri">Missouri</a><a href="#measure">30/60/90 plan</a><a href="#appendix">Ready-to-use pieces</a>
   </nav>
 </div>
 
@@ -270,164 +270,68 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
 
   <div class="three">
     <div class="card good">
-      <h3>What's working</h3>
+      <h3>What the evidence shows</h3>
       <ul>
-        <li><strong>People who search her name find her.</strong> Her site was first in the saved name search. All 24 clicks attached to named queries were name searches; Google keeps the queries behind the other 148 clicks private.</li>
-        <li><strong>Pregnancy loss is already a way in.</strong> Her About page was the second web result for "miscarriage therapist tulsa" and on page one for "perinatal therapist tulsa" today.</li>
-        <li><strong>The voice and the openness.</strong> "Hey, you're a person too.", prices on the page and a free 20 minute consult help someone understand the next step before getting in touch.</li>
-        <li><strong>AI tools can read the site</strong>, and one already names her when a nurse asks who to refer to.</li>
+        <li>Her site was first in the saved search for her name. The other 148 of 172 clicks have private query text, so we cannot say what share came from people who already knew her.</li>
+        <li>About was the second web result for "miscarriage therapist tulsa" in one saved search. That's a useful starting point for the copy, not a ranking forecast.</li>
+        <li>The free 20 minute consultation is selectable on the request screen. The site shows prices on About, but the first Home booking button does not say that the consult is free.</li>
       </ul>
     </div>
     <div class="card opp">
-      <h3>The three biggest opportunities</h3>
+      <h3>Changes closest to a consultation</h3>
       <ol>
-        <li><strong>Say the conditions, city and state on the page.</strong> The homepage description already names Oklahoma, pregnancy and infertility, but its visible copy does not. Depression and anxiety need adding too, once Madi approves the wording. Your copy hours, homepage first.</li>
-        <li><strong>Give referring providers a page of their own.</strong> About already mentions professional training and consultation. Add a clear patient-referral route for OBs, midwives and doulas, so their practical questions have an answer on her own site.</li>
-        <li><strong>Make the public facts agree.</strong> Her Google listing, the Postpartum Support International directory, her scheduler and an old 2013 registry record tell different stories. First settle where she sees people; that decides the right map settings. Then correct the listings she already has.</li>
+        <li>Show the confirmed service, location and free consult offer beside an early Home button labeled "Request a free 20 minute consult." Repeat the route near fees on About.</li>
+        <li>Use the working <code>/request</code> scheduler route for new-client consult buttons after Madi confirms it is the right entry point. Remove the copied <code>fbclid</code> suffix.</li>
+        <li>Make the footer phone tappable, test the existing email inquiry link, and record those contact clicks. Keep actual consult requests as a separate practice-side number.</li>
       </ol>
     </div>
     <div class="card next">
-      <h3>What happens next</h3>
+      <h3>Who does what next</h3>
       <ul>
-        <li>You react to this round; the next one is cut down and written for Madi.</li>
-        <li>Your ten copy hours are planned page by page in the <a href="#brief">copy brief</a>.</li>
-        <li>Madi's own list is <a href="#madi">settings and listings</a>, in an order that starts with the facts only she can settle.</li>
-        <li><a href="#questions">Five questions for Madi</a> change what the copy says.</li>
-        <li>We compare against the <a href="#measure">baseline recorded here</a> at 30, 60 and 90 days after approved changes go live.</li>
+        <li>Bayless: shape the Home and About CTA context in the <a href="#brief">ten-hour brief</a>, with Madi's answers.</li>
+        <li>Madi: settle the <a href="#questions">practice facts</a>, then use the <a href="#madi">site and listing checklist</a>.</li>
+        <li>Seth: check the published pages and compare the same measures at <a href="#measure">30, 60 and 90 days</a>. Booking clicks and appointments stay separate.</li>
       </ul>
     </div>
   </div>
-  <p class="expect"><strong>A realistic check-in.</strong> This is a small site in a small market, and the first changes are mostly words and settings. Our planning assumption is to review condition searches over the first 90 days after launch <span class="tag">our read</span>. The saved results give pregnancy loss a starting point. Infertility and provider referrals fit Madi's brief, but their search opportunity is not measured here.</p>
+  <p class="expect">These changes are tests of a clearer path, not a conversion forecast. The site recorded 16 people clicking to Sessions Health in its first six weeks of analytics; completed requests are not measured here. Source: evidence/2026-09-23/ga4-read.md and research/2026-09-23-conversion/booking-path.json.</p>
+</section>
+
+<section id="path" class="brk">
+  <div class="sec-head">
+    <p class="kicker">Live route · 390 and 1280 px · 23 Sep 2026</p>
+    <h2>New visitors reach the consult request in two steps</h2>
+    <p><strong>Found.</strong> Most site booking buttons open the Sessions Health entry page. A new visitor then chooses "I'm a new client" to reach <code>/request</code>. Home has one "Book Now" link that already opens <code>/request</code>. That screen shows "Free Telehealth Consultation, 20m," then practitioner and location choices. We did not submit personal information or verify later calendar or form steps.</p>
+  </div>
+  <div class="tw"><table>
+    <thead><tr><th>Page or route</th><th>Found</th><th>Suggested change and owner</th><th>Check after publishing</th></tr></thead>
+    <tbody>
+      <tr><td>Home</td><td>At 390 px, no consult button appears in the first 844 px screen. A booking link sits about 880 px down; the "Book an Appointment" service button is around 1,214 px. The free consult is named on the scheduler, not by those buttons.</td><td>Bayless: place a short confirmed service/location line and "Request a free 20 minute consult" beside an early Home CTA. Madi: approve the offer and target URL.</td><td>Seth: phone test from first screen to <code>/request</code>; compare Home booking clicks by page.</td></tr>
+      <tr><td>About and pricing</td><td>At 390 px, the first screen shows Madi's introduction and photo, without a consult CTA. About lists therapy prices farther down; the measured booking links were shared site controls.</td><td>Bayless: place a consult CTA next to the fees and a short "what happens next" answer supplied by Madi. Madi: confirm fees and insurance wording.</td><td>Seth: test the pricing anchor and CTA; compare About booking clicks.</td></tr>
+      <tr><td>Expressive Art and Events</td><td>Expressive Art has "Book Studio Time" and an "Inquire Now" email link. Events shows an April 2026 date.</td><td>Madi: confirm which offer is current. Bayless: label each CTA for the actual program; hide or update the past event.</td><td>Seth: test each destination and record email clicks after the link event is configured.</td></tr>
+      <tr><td>Shared booking and phone controls</td><td>The measured booking links include a copied <code>fbclid</code> suffix. The footer phone is printed but lacks <code>tel:</code>.</td><td>Madi: replace the 14 copied links with a clean, tested request URL where new-client consult is intended, and make the footer number a <code>tel:</code> link.</td><td>Seth: test on a phone, verify <code>booking_click</code> and <code>phone_click</code>, and check no private URL values enter GA4.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="source">Live Playwright read and browser cleanup: research/2026-09-23-conversion/booking-path.json. Saved link counts and analytics setup: evidence/2026-09-23/ga4-read.md. These are observed route and placement details, not evidence that any visitor abandoned it.</p>
 </section>
 
 <!-- ============ SEARCH CONSOLE ============ -->
 <section id="search">
   <div class="sec-head">
     <p class="kicker">Search Console · 12 months</p>
-    <h2>The searches Google names show a gap in condition searches</h2>
-    <p>Madi verified her own Search Console in April 2025, so there are 16 months of history, not the handful of days a new setup would have. Google is showing her site far more than a year ago. The clicks haven't followed.</p>
+    <h2>How people find Madi on Google</h2>
+    <p>Her site appeared in Google results about 2,420 times in the past year and received 172 clicks. Appearances grew, but the saved condition searches did not bring a named click. We'd test clearer service and location wording on Home and About, then compare the same measures after the copy is live.</p>
   </div>
 
   <div class="stats">
     <div class="stat"><div class="n">2,420</div><div class="l">times shown in results (Google prints 2.42K)</div></div>
     <div class="stat"><div class="n">172</div><div class="l">clicks</div></div>
     <div class="stat"><div class="n">7.1%</div><div class="l">of showings became a click</div></div>
-    <div class="stat"><div class="n">10.2</div><div class="l">average position across recorded showings</div></div>
   </div>
   <span class="src">Search Console, Performance, Web, 22 Sep 2025 to 21 Sep 2026, read 23 Sep 2026</span>
 
-  <figure>
-    <div class="frame">
-      <p class="chart-title">Times Google showed her site, by month</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" role="img" aria-label="Times Google showed her site, by month" class="chart">
-<title>Times Google showed her site, by month</title>
-<line x1="44" x2="668" y1="204.0" y2="204.0" stroke="#e6dfd2" stroke-width="1"/>
-<text x="36" y="208.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">0</text>
-<line x1="44" x2="668" y1="166.8" y2="166.8" stroke="#e6dfd2" stroke-width="1"/>
-<text x="36" y="170.8" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">100</text>
-<line x1="44" x2="668" y1="129.6" y2="129.6" stroke="#e6dfd2" stroke-width="1"/>
-<text x="36" y="133.6" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">200</text>
-<line x1="44" x2="668" y1="92.4" y2="92.4" stroke="#e6dfd2" stroke-width="1"/>
-<text x="36" y="96.4" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">300</text>
-<line x1="44" x2="668" y1="55.2" y2="55.2" stroke="#e6dfd2" stroke-width="1"/>
-<text x="36" y="59.2" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">400</text>
-<line x1="44" x2="668" y1="18.0" y2="18.0" stroke="#e6dfd2" stroke-width="1"/>
-<text x="36" y="22.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">500</text>
-<path d="M51.5,204.0 L51.5,197.2 Q51.5,193.2 55.5,193.2 L71.5,193.2 Q75.5,193.2 75.5,197.2 L75.5,204.0 Z" fill="#1d7a58"><title>Jun 2025: 29 impressions</title></path>
-<text x="63.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jun</text>
-<text x="63.5" y="235.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">2025</text>
-<path d="M90.5,204.0 L90.5,192.7 Q90.5,188.7 94.5,188.7 L110.5,188.7 Q114.5,188.7 114.5,192.7 L114.5,204.0 Z" fill="#1d7a58"><title>Jul 2025: 41 impressions</title></path>
-<text x="102.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jul</text>
-<path d="M129.5,204.0 L129.5,183.8 Q129.5,179.8 133.5,179.8 L149.5,179.8 Q153.5,179.8 153.5,183.8 L153.5,204.0 Z" fill="#1d7a58"><title>Aug 2025: 65 impressions</title></path>
-<text x="141.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Aug</text>
-<path d="M168.5,204.0 L168.5,184.9 Q168.5,180.9 172.5,180.9 L188.5,180.9 Q192.5,180.9 192.5,184.9 L192.5,204.0 Z" fill="#1d7a58"><title>Sep 2025: 62 impressions</title></path>
-<text x="180.5" y="174.9" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11.5" fill="#1f2320">62</text>
-<text x="180.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Sep</text>
-<path d="M207.5,204.0 L207.5,182.3 Q207.5,178.3 211.5,178.3 L227.5,178.3 Q231.5,178.3 231.5,182.3 L231.5,204.0 Z" fill="#1d7a58"><title>Oct 2025: 69 impressions</title></path>
-<text x="219.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Oct</text>
-<path d="M246.5,204.0 L246.5,183.4 Q246.5,179.4 250.5,179.4 L266.5,179.4 Q270.5,179.4 270.5,183.4 L270.5,204.0 Z" fill="#1d7a58"><title>Nov 2025: 66 impressions</title></path>
-<text x="258.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Nov</text>
-<path d="M285.5,204.0 L285.5,173.8 Q285.5,169.8 289.5,169.8 L305.5,169.8 Q309.5,169.8 309.5,173.8 L309.5,204.0 Z" fill="#1d7a58"><title>Dec 2025: 92 impressions</title></path>
-<text x="297.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Dec</text>
-<path d="M324.5,204.0 L324.5,158.5 Q324.5,154.5 328.5,154.5 L344.5,154.5 Q348.5,154.5 348.5,158.5 L348.5,204.0 Z" fill="#1d7a58"><title>Jan 2026: 133 impressions</title></path>
-<text x="336.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jan</text>
-<text x="336.5" y="235.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">2026</text>
-<path d="M363.5,204.0 L363.5,151.8 Q363.5,147.8 367.5,147.8 L383.5,147.8 Q387.5,147.8 387.5,151.8 L387.5,204.0 Z" fill="#1d7a58"><title>Feb 2026: 151 impressions</title></path>
-<text x="375.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Feb</text>
-<path d="M402.5,204.0 L402.5,139.6 Q402.5,135.6 406.5,135.6 L422.5,135.6 Q426.5,135.6 426.5,139.6 L426.5,204.0 Z" fill="#1d7a58"><title>Mar 2026: 184 impressions</title></path>
-<text x="414.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Mar</text>
-<path d="M441.5,204.0 L441.5,152.9 Q441.5,148.9 445.5,148.9 L461.5,148.9 Q465.5,148.9 465.5,152.9 L465.5,204.0 Z" fill="#1d7a58"><title>Apr 2026: 148 impressions</title></path>
-<text x="453.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Apr</text>
-<path d="M480.5,204.0 L480.5,138.1 Q480.5,134.1 484.5,134.1 L500.5,134.1 Q504.5,134.1 504.5,138.1 L504.5,204.0 Z" fill="#1d7a58"><title>May 2026: 188 impressions</title></path>
-<text x="492.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">May</text>
-<path d="M519.5,204.0 L519.5,112.4 Q519.5,108.4 523.5,108.4 L539.5,108.4 Q543.5,108.4 543.5,112.4 L543.5,204.0 Z" fill="#1d7a58"><title>Jun 2026: 257 impressions</title></path>
-<text x="531.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jun</text>
-<path d="M558.5,204.0 L558.5,54.7 Q558.5,50.7 562.5,50.7 L578.5,50.7 Q582.5,50.7 582.5,54.7 L582.5,204.0 Z" fill="#1d7a58"><title>Jul 2026: 412 impressions</title></path>
-<text x="570.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jul</text>
-<path d="M597.5,204.0 L597.5,41.7 Q597.5,37.7 601.5,37.7 L617.5,37.7 Q621.5,37.7 621.5,41.7 L621.5,204.0 Z" fill="#1d7a58"><title>Aug 2026: 447 impressions</title></path>
-<text x="609.5" y="31.7" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11.5" fill="#1f2320">447</text>
-<text x="609.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Aug</text>
-<path d="M636.5,204.0 L636.5,114.3 Q636.5,110.3 640.5,110.3 L656.5,110.3 Q660.5,110.3 660.5,114.3 L660.5,204.0 Z" fill="#9cc8b4"><title>Sep 2026: 252 impressions (1 to 21 Sep only)</title></path>
-<text x="648.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Sep</text>
-<text x="668" y="235.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10" fill="#6f716a">Sep 2026: 1 to 21 only</text>
-</svg>
-    </div>
-    <div class="frame">
-      <p class="chart-title">Clicks from Google, by month</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" role="img" aria-label="Clicks from Google, by month" class="chart">
-<title>Clicks from Google, by month</title>
-<line x1="44" x2="668" y1="204.0" y2="204.0" stroke="#e6dfd2" stroke-width="1"/>
-<text x="36" y="208.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">0</text>
-<line x1="44" x2="668" y1="142.0" y2="142.0" stroke="#e6dfd2" stroke-width="1"/>
-<text x="36" y="146.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">10</text>
-<line x1="44" x2="668" y1="80.0" y2="80.0" stroke="#e6dfd2" stroke-width="1"/>
-<text x="36" y="84.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">20</text>
-<line x1="44" x2="668" y1="18.0" y2="18.0" stroke="#e6dfd2" stroke-width="1"/>
-<text x="36" y="22.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">30</text>
-<path d="M51.5,204.0 L51.5,189.4 Q51.5,185.4 55.5,185.4 L71.5,185.4 Q75.5,185.4 75.5,189.4 L75.5,204.0 Z" fill="#1d7a58"><title>Jun 2025: 3 clicks</title></path>
-<text x="63.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jun</text>
-<text x="63.5" y="235.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">2025</text>
-<path d="M90.5,204.0 L90.5,170.8 Q90.5,166.8 94.5,166.8 L110.5,166.8 Q114.5,166.8 114.5,170.8 L114.5,204.0 Z" fill="#1d7a58"><title>Jul 2025: 6 clicks</title></path>
-<text x="102.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jul</text>
-<path d="M129.5,204.0 L129.5,158.4 Q129.5,154.4 133.5,154.4 L149.5,154.4 Q153.5,154.4 153.5,158.4 L153.5,204.0 Z" fill="#1d7a58"><title>Aug 2025: 8 clicks</title></path>
-<text x="141.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Aug</text>
-<path d="M168.5,204.0 L168.5,127.4 Q168.5,123.4 172.5,123.4 L188.5,123.4 Q192.5,123.4 192.5,127.4 L192.5,204.0 Z" fill="#1d7a58"><title>Sep 2025: 13 clicks</title></path>
-<text x="180.5" y="117.4" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11.5" fill="#1f2320">13</text>
-<text x="180.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Sep</text>
-<path d="M207.5,204.0 L207.5,139.8 Q207.5,135.8 211.5,135.8 L227.5,135.8 Q231.5,135.8 231.5,139.8 L231.5,204.0 Z" fill="#1d7a58"><title>Oct 2025: 11 clicks</title></path>
-<text x="219.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Oct</text>
-<path d="M246.5,204.0 L246.5,158.4 Q246.5,154.4 250.5,154.4 L266.5,154.4 Q270.5,154.4 270.5,158.4 L270.5,204.0 Z" fill="#1d7a58"><title>Nov 2025: 8 clicks</title></path>
-<text x="258.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Nov</text>
-<path d="M285.5,204.0 L285.5,127.4 Q285.5,123.4 289.5,123.4 L305.5,123.4 Q309.5,123.4 309.5,127.4 L309.5,204.0 Z" fill="#1d7a58"><title>Dec 2025: 13 clicks</title></path>
-<text x="297.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Dec</text>
-<path d="M324.5,204.0 L324.5,133.6 Q324.5,129.6 328.5,129.6 L344.5,129.6 Q348.5,129.6 348.5,133.6 L348.5,204.0 Z" fill="#1d7a58"><title>Jan 2026: 12 clicks</title></path>
-<text x="336.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jan</text>
-<text x="336.5" y="235.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">2026</text>
-<path d="M363.5,204.0 L363.5,152.2 Q363.5,148.2 367.5,148.2 L383.5,148.2 Q387.5,148.2 387.5,152.2 L387.5,204.0 Z" fill="#1d7a58"><title>Feb 2026: 9 clicks</title></path>
-<text x="375.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Feb</text>
-<path d="M402.5,204.0 L402.5,139.8 Q402.5,135.8 406.5,135.8 L422.5,135.8 Q426.5,135.8 426.5,139.8 L426.5,204.0 Z" fill="#1d7a58"><title>Mar 2026: 11 clicks</title></path>
-<text x="414.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Mar</text>
-<path d="M441.5,204.0 L441.5,108.8 Q441.5,104.8 445.5,104.8 L461.5,104.8 Q465.5,104.8 465.5,108.8 L465.5,204.0 Z" fill="#1d7a58"><title>Apr 2026: 16 clicks</title></path>
-<text x="453.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Apr</text>
-<path d="M480.5,204.0 L480.5,127.4 Q480.5,123.4 484.5,123.4 L500.5,123.4 Q504.5,123.4 504.5,127.4 L504.5,204.0 Z" fill="#1d7a58"><title>May 2026: 13 clicks</title></path>
-<text x="492.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">May</text>
-<path d="M519.5,204.0 L519.5,102.6 Q519.5,98.6 523.5,98.6 L539.5,98.6 Q543.5,98.6 543.5,102.6 L543.5,204.0 Z" fill="#1d7a58"><title>Jun 2026: 17 clicks</title></path>
-<text x="531.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jun</text>
-<path d="M558.5,204.0 L558.5,46.8 Q558.5,42.8 562.5,42.8 L578.5,42.8 Q582.5,42.8 582.5,46.8 L582.5,204.0 Z" fill="#1d7a58"><title>Jul 2026: 26 clicks</title></path>
-<text x="570.5" y="36.8" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11.5" fill="#1f2320">26</text>
-<text x="570.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jul</text>
-<path d="M597.5,204.0 L597.5,115.0 Q597.5,111.0 601.5,111.0 L617.5,111.0 Q621.5,111.0 621.5,115.0 L621.5,204.0 Z" fill="#1d7a58"><title>Aug 2026: 15 clicks</title></path>
-<text x="609.5" y="105.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11.5" fill="#1f2320">15</text>
-<text x="609.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Aug</text>
-<path d="M636.5,204.0 L636.5,121.2 Q636.5,117.2 640.5,117.2 L656.5,117.2 Q660.5,117.2 660.5,121.2 L660.5,204.0 Z" fill="#9cc8b4"><title>Sep 2026: 14 clicks (1 to 21 Sep only)</title></path>
-<text x="648.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Sep</text>
-<text x="668" y="235.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10" fill="#6f716a">Sep 2026: 1 to 21 only</text>
-</svg>
-    </div>
-    <figcaption>Summed from the Search Console daily table, 22 May 2025 to 21 Sep 2026. The lighter last column is September to the 21st.</figcaption>
-  </figure>
   <div class="prose">
-    <p>Showings climbed from 62 in September 2025 to 447 in August 2026 while clicks stayed between 8 and 26 a month. Clearer condition and location wording is our first change to test <span class="tag">our read</span>. That is why much of this report ends up in the copy brief.</p>
+    <p>Appearances rose from 62 in September 2025 to 447 in August 2026. Monthly clicks stayed between 8 and 26. Clearer condition and location wording is a practical first change to test, though the charts do not tell us what caused the rise <span class="tag">our read</span>.</p>
   </div>
 
   <figure>
@@ -463,52 +367,31 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
 <text x="265.0" y="259" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11.5" fill="#474b45">9  ·  0 clicks</text>
 </svg>
     </div>
-    <figcaption>Impressions and clicks per search, 12 months. Search Console lists 62 named query rows; it hides rare queries for privacy, which is why these rows account for only 24 of the 172 clicks.</figcaption>
+    <figcaption>Named Google searches, 12 months. Google hides the searches behind 148 of the 172 clicks, so this chart cannot show the full mix.</figcaption>
   </figure>
 
   <div class="prose">
-    <p><strong>Her site appears for some condition searches, but the named queries have not brought a click.</strong> Thirteen named condition queries drew 62 showings and no clicks in a year. The positions below are averages across recorded showings, not fixed result pages:</p>
+    <p>Thirteen named condition queries drew 62 appearances and no clicks in a year. These are small counts. They tell us which words to test in the copy, not how many people in Tulsa search for them.</p>
   </div>
   <div class="tw"><table>
-    <thead><tr><th>Search</th><th class="n">Times shown</th><th class="n">Average position</th></tr></thead>
+    <thead><tr><th>Named condition search</th><th class="n">Times shown</th><th class="n">Clicks</th></tr></thead>
     <tbody>
-      <tr><td class="q">postpartum therapist in tulsa</td><td class="n">20</td><td class="n">17.2</td></tr>
-      <tr><td class="q">ppd therapist tulsa</td><td class="n">14</td><td class="n">13.4</td></tr>
-      <tr><td class="q">postpartum depression</td><td class="n">13</td><td class="n">1.8</td></tr>
-      <tr><td class="q">postpartum anxiety therapist tulsa</td><td class="n">6</td><td class="n">24.5</td></tr>
-      <tr class="hl"><td class="q">miscarriage therapist near me</td><td class="n">1</td><td class="n">2.0</td></tr>
-      <tr class="hl"><td class="q">miscarriage therapy near me</td><td class="n">1</td><td class="n">3.0</td></tr>
-      <tr><td class="q">postpartum therapist near me</td><td class="n">1</td><td class="n">11.0</td></tr>
-      <tr><td class="q">pregnancy therapist</td><td class="n">1</td><td class="n">9.0</td></tr>
-      <tr><td class="q">postpartum mental health support</td><td class="n">1</td><td class="n">5.0</td></tr>
+      <tr><td class="q">postpartum therapist in tulsa</td><td class="n">20</td><td class="n">0</td></tr>
+      <tr><td class="q">ppd therapist tulsa</td><td class="n">14</td><td class="n">0</td></tr>
+      <tr><td class="q">postpartum depression</td><td class="n">13</td><td class="n">0</td></tr>
+      <tr><td class="q">postpartum anxiety therapist tulsa</td><td class="n">6</td><td class="n">0</td></tr>
     </tbody>
   </table></div>
-  <p class="cap">Search Console, 12 months. Also in the list with one showing each: postpartum depression help, postpartum depression help near me (position 1), post partum depresion, postpartum mental health support near me. Volumes are small, so read these as direction, not a forecast.</p>
-
-  <div class="prose">
-    <p><strong>More people search her name misspelled than spelled right.</strong> "madison peterson" with an o was the single biggest search (371 showings, 4 clicks, position 9.8), more than twice "madison petersen" (155, 5 clicks, 6.5). "madi peterson" brought the most clicks: 15 from 124. Google already connects the misspelling to her, so nothing needs adding to the page for it <span class="tag">our read</span>. About 46 showings were for searches like "the madison therapist", which look like people looking for a different business called The Madison <span class="tag">our read</span>.</p>
-    <p><strong>Phones are where she's found.</strong> 104 of the 172 clicks came from phones, where her average position is 6.2, against 15.0 on desktop. 169 of the 172 clicks came from the United States.</p>
-  </div>
-
-  <div class="tw"><table>
-    <thead><tr><th>Page</th><th class="n">Clicks</th><th class="n">Times shown</th><th class="n">Click rate</th><th class="n">Position</th></tr></thead>
-    <tbody>
-      <tr><td>Homepage /</td><td class="n">163</td><td class="n">2,072</td><td class="n">7.9%</td><td class="n">9.8</td></tr>
-      <tr><td>/about</td><td class="n">8</td><td class="n">600</td><td class="n">1.3%</td><td class="n">9.2</td></tr>
-      <tr><td>/art-therapy</td><td class="n">2</td><td class="n">424</td><td class="n">0.5%</td><td class="n">8.2</td></tr>
-      <tr><td>/events</td><td class="n">1</td><td class="n">229</td><td class="n">0.4%</td><td class="n">7.2</td></tr>
-      <tr><td>/home#services</td><td class="n">0</td><td class="n">153</td><td class="n">0%</td><td class="n">6.0</td></tr>
-    </tbody>
-  </table></div>
-  <p class="cap">Search Console, 12 months. "/home#services" is where the menu's Services link points (a second copy of the homepage), so Google lists it as its own address. The fix is in Madi's list.</p>
+  <p class="cap">Source: evidence/2026-09-23/gsc-queries-12mo.txt. The full query and page tables remain in the saved evidence.</p>
+  <p>Most Google clicks went to Home (163 of 172). A copy review there is a useful first step. Phones accounted for 104 clicks, so we'd also check the finished page on a phone. Source: evidence/2026-09-23/gsc-summary.md.</p>
 </section>
 
 <!-- ============ LIVE RESULTS ============ -->
 <section id="results">
   <div class="sec-head">
     <p class="kicker">Live Google results · 23 Sep 2026</p>
-    <h2>Pregnancy loss already opens a door. Postpartum doesn't yet</h2>
-    <p>I ran four searches the way a mom or a nurse might. Search Console averages everything; this is what one person actually saw.</p>
+    <h2>What Google shows for local therapy searches</h2>
+    <p>These four saved searches are a snapshot from one signed-in browser. They do not establish typical placement or total local demand.</p>
   </div>
   <div class="tw"><table>
     <thead><tr><th>Search</th><th>Where Madi's site appeared</th><th>Map results</th><th>Google's AI Overview</th></tr></thead>
@@ -520,7 +403,7 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
     </tbody>
   </table></div>
   <p class="cap">One reading each in Seth's signed-in Chrome; results shift by person, place and day, so treat this as a snapshot and Search Console as the steady measure. evidence/2026-09-23/serp-and-ai-answers.md</p>
-  <h3 style="margin:26px 0 10px">Each search needs one useful page, not a page for every phrase</h3>
+  <h3 style="margin:26px 0 10px">Which page should answer each search</h3>
   <div class="tw"><table>
     <thead><tr><th>What someone needs</th><th>What we actually saw</th><th>Where the answer belongs</th></tr></thead>
     <tbody>
@@ -540,78 +423,56 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
 <section id="technical" class="brk">
   <div class="sec-head">
     <p class="kicker">The site itself</p>
-    <h2>The site is sound. Its page settings are unfinished</h2>
-    <p>Google has indexed the four pages that matter, and both booking addresses open in a browser. The remaining work is visible: starter posts, unfinished page settings, one slow workshop image and a few controls that need a closer look.</p>
+    <h2>Website content and page settings</h2>
+    <p>The four main pages are in Google and the booking page opens in a browser. The useful fixes are visible on the site: unfinished posts, page settings, phone speed and a few controls. The steps for Madi are gathered in her checklist below.</p>
   </div>
 
   <div class="finding">
     <div class="fnum">01</div>
     <div>
-      <h3>Google has indexed every page that matters, and the two it skipped are meant to be skipped</h3>
-      <p>Four pages are in Google: the homepage, About, Expressive Art and Events. The two it lists as not indexed are the shopping cart page Squarespace creates (/cart, correctly marked "do not index") and /home, a second copy of the homepage that points Google at the real one. Neither needs anything. The blog and four starter posts are not in Google's indexing report, but all five are public and in the sitemap. The posts still say "Blog Post Title One" through "Four" and credit Pamela Montanez in 2019.</p>
-      <div class="evidence">Indexed: / (crawled 16 Sep), /events (16 Aug), /art-therapy (11 Aug), /about (5 Aug). Not indexed: /cart, "Excluded by noindex tag"; /home, "Alternate page with proper canonical tag". Search Console, Page indexing, last updated 20 Sep. The four starter posts return 200 with self canonicals; research/2026-09-23-technical/evidence/crawl-inventory.md.</div>
-      <dl class="fx"><dt>Fix</dt><dd>Check inbound links, then delete or disable the four placeholder posts and hide the blog page until there's a first real post.</dd><dt>Effort</dt><dd>Madi, about 10 minutes <span class="tag">estimate</span>.</dd></dl>
+      <h3>Public starter blog posts</h3>
+      <p>The public blog still shows four starter posts titled "Blog Post Title One" through "Four", dated 2019 and credited to Pamela Montanez. They do not represent Madi's practice. We'd check whether anything links to them, then retire the posts and hide the blog until Madi has something she wants to publish.</p>
+      <div class="evidence">Source: research/2026-09-23-technical/evidence/crawl-inventory.md. The four main pages are indexed; the cart and duplicate Home page do not need action.</div>
+      <dl class="fx"><dt>Owner</dt><dd>Madi, in the first 30 days; about 10 minutes <span class="tag">estimate</span>.</dd></dl>
     </div>
   </div>
 
   <div class="finding">
     <div class="fnum">02</div>
     <div>
-      <h3>Page titles carry template names and run long; two pages have no description</h3>
-      <p>The search title is the blue line in a Google result. Squarespace builds it from each page's own title plus the long site title, so a page named "Team 1" in the editor goes out to Google as an 81-character title that starts "Team 1". The homepage's title spends its space on "Explore Healing Today" rather than what she does and where.</p>
+      <h3>Page titles, descriptions and headings</h3>
+      <p>About still has the working title "Team 1" and no page description. Expressive Art and Events have long titles, and several pages lack one clear main heading. These settings make the page harder to understand before anyone reads Madi's copy. The appendix has proposed titles and descriptions for Bayless to adjust.</p>
     </div>
   </div>
-  <div class="tw"><table>
-    <thead><tr><th>Page</th><th>The page's own part of the title</th><th class="n">Full length</th><th>Description</th><th>Main headings (H1)</th></tr></thead>
-    <tbody>
-      <tr><td>/</td><td>Madison Petersen, LCSW, PMH-C | Explore Healing Today</td><td class="n">53</td><td>341 characters; names Oklahoma, virtual, pregnancy, postpartum, miscarriage, stillbirth, infertility</td><td>2, both the footer line "So glad you are here!"</td></tr>
-      <tr class="flag"><td>/about</td><td>Team 1</td><td class="n">81</td><td>none</td><td>none ("Hi! I'm Madi!" is a Heading 2)</td></tr>
-      <tr><td>/art-therapy</td><td>Expressive Therapy | Find Your Peace Today</td><td class="n">117</td><td>136 characters</td><td>none</td></tr>
-      <tr><td>/events</td><td>Events | Join Our Events Today</td><td class="n">105</td><td>153 characters</td><td>5 ("Registration Open!", a star, the workshop name, and more)</td></tr>
-      <tr class="flag"><td>/blog</td><td>Blog 3</td><td class="n">81</td><td>none</td><td>4 (the placeholder post titles)</td></tr>
-    </tbody>
-  </table></div>
-  <p class="cap">Every page but the homepage also carries the site title "Madison Petersen, LCSW, PMH-C | Tulsa Miscarriage &amp; Postpartum Therapist" after a long dash. Live pages fetched 23 Sep 2026; heading counts from the 9 Sep crawl, re-checked 23 Sep.</p>
+  <p class="cap">Source: evidence/2026-09-23/web-observations.md and research/2026-09-23-technical/evidence/crawl-inventory.md. The full page-by-page audit is in those files.</p>
   <div class="finding" style="border-top:0;padding-top:0">
     <div></div>
     <div>
-      <dl class="fx"><dt>Fix</dt><dd>Set each page's own search title and description (Pages, the gear icon, SEO). The words are in the copy brief. Mark one heading per page as Heading 1 in the text editor; the footer's "So glad you are here!" goes back to a plain styled line.</dd><dt>Effort</dt><dd>Bayless writes, Madi pastes: about 15 minutes.</dd></dl>
+      <dl class="fx"><dt>Action</dt><dd>Bayless adjusts the proposed wording; Madi pastes it into each page's Squarespace SEO settings. Give each page one Heading 1 that describes the page. The footer's "So glad you are here!" can remain styled text.</dd><dt>Timing</dt><dd>Before launch for copy, then Madi's first-month site pass.</dd></dl>
     </div>
   </div>
 
   <div class="finding">
     <div class="fnum">03</div>
     <div>
-      <h3>The homepage keeps its best words in a hidden setting</h3>
-      <p>Madi already wrote the right sentence: "in person or virtual individual therapy services for women in Oklahoma in the childbearing years including pregnancy, postpartum, miscarriage, stillbirth, infertility". It lives in the homepage's description, which visitors never see and Google only sometimes shows. The visible homepage copy never says Oklahoma, pregnancy, infertility or virtual.</p>
+      <h3>Words visitors can see on the homepage</h3>
+      <p>Madi already describes pregnancy, postpartum, miscarriage, stillbirth, infertility and Oklahoma in the homepage's search description. That wording is not in the visible opening. Bayless could bring the useful parts onto the page in Madi's voice, while keeping the warm line she already has. Depression and anxiety are absent from both the visible copy and page settings; Madi should approve any wording about them.</p>
     </div>
   </div>
-  <div class="tw"><table>
-    <thead><tr><th>Word</th><th class="n">Homepage, visible</th><th class="n">Homepage, hidden settings</th><th>Across all four pages</th></tr></thead>
-    <tbody>
-      <tr><td>Oklahoma</td><td class="n">0</td><td class="n">4</td><td>0 visible on any page; About and Expressive Art say "Tulsa, OK"</td></tr>
-      <tr><td>pregnancy</td><td class="n">0</td><td class="n">4</td><td>4 times on About</td></tr>
-      <tr><td>infertility</td><td class="n">0</td><td class="n">4</td><td>once on About</td></tr>
-      <tr><td>virtual / telehealth</td><td class="n">0</td><td class="n">4</td><td>"telehealth" once on About</td></tr>
-      <tr><td>postpartum</td><td class="n">2</td><td class="n">4</td><td>on three pages</td></tr>
-      <tr><td>Tulsa</td><td class="n">1</td><td class="n">0</td><td>on all four</td></tr>
-      <tr class="flag"><td>depression, anxiety, Missouri, OB, midwife, doula, referral, provider, insurance</td><td class="n">0</td><td class="n">0</td><td>0 on every page, visible or hidden</td></tr>
-    </tbody>
-  </table></div>
-  <p class="cap">Counted by hand over the live text of /, /about, /art-therapy and /events, 23 Sep 2026 (evidence/2026-09-23/web-observations.md).</p>
+  <p class="cap">Source: evidence/2026-09-23/web-observations.md, checked against the four main pages on 23 September 2026.</p>
   <div class="finding" style="border-top:0;padding-top:0">
     <div></div>
     <div>
-      <p>Google weighs what a person can read, and so do AI assistants. The single most useful change in this report is moving that sentence, in her voice, into the first screen of the homepage.</p>
-      <dl class="fx"><dt>Fix</dt><dd>Homepage copy, first block of the brief.</dd><dt>Effort</dt><dd>Bayless, inside the homepage hours.</dd></dl>
+      <p>A visitor should be able to see who the therapy is for and where Madi can see them without opening a search result. The homepage section of the copy brief gives Bayless a starting point, not prescribed wording.</p>
+      <dl class="fx"><dt>Owner</dt><dd>Bayless, within the planned homepage hours; Madi approves the clinical terms.</dd></dl>
     </div>
   </div>
 
   <div class="finding">
     <div class="fnum">04</div>
     <div>
-      <h3>The homepage still waits about five seconds to draw its first words</h3>
-      <p>Three new mobile tests put the homepage's largest text, "you're a person too.", at a median 4.89 seconds, level with the 4.9 second test on 9 September. Render delay made up 96 to 97% of the wait. About 1.5 MB of the page transfer was scripts; its images were mostly served as WebP and were a much smaller share. The font choices and newsletter block are worth checking, but the newsletter's effect has not been isolated in a before-and-after test.</p>
+      <h3>Site speed on phones</h3>
+      <p>In three lab phone tests, the homepage's main words appeared after a median 4.89 seconds. Render delay dominated the measured wait. The page transferred about 1.5 MB of scripts in the first run, including roughly 354 KB of reCAPTCHA. If the newsletter is unused, Madi can remove the block; Seth should then rerun the same test. We have not isolated the block's effect or measured real visitors' wait.</p>
       <figure>
         <div class="film">
           <div><img src="img/film-home-00-840ms.jpg" alt="Blank phone screen at 0.8 seconds"><p>0.8 s · nothing painted</p></div>
@@ -619,18 +480,17 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
           <div><img src="img/film-home-05-5039ms.jpg" alt="Headline in a fallback font at 5.0 seconds"><p>5.0 s · words, in a stand-in font</p></div>
           <div><img src="img/film-home-07-6719ms.jpg" alt="Headline in the brand font at 6.7 seconds"><p>6.7 s · her fonts arrive</p></div>
         </div>
-        <figcaption>What a phone showed, second by second. Lighthouse 12, real network and CPU throttling, homepage, 9 Sep 2026.</figcaption>
       </figure>
-      <div class="evidence">Lighthouse 12, DevTools throttling, 23 Sep: three mobile runs, median largest paint 4.89 s; time scripts blocked interaction in the lab: 857 ms; layout movement score: 0.004, close to zero. The 9 Sep single-run largest paint was 4.9 s. No real-visitor Core Web Vitals are available. research/2026-09-23-technical/evidence/performance/lab-inventory.md.</div>
-      <dl class="fx"><dt>Fix</dt><dd>The page loads reCAPTCHA. If Madi does not use the newsletter block, remove it and remeasure to see what changes. Check whether Site Styles can use fewer font families and weights.</dd><dt>Effort</dt><dd>Madi or whoever edits the site, about 15 minutes to check <span class="tag">estimate</span>.</dd><dt>Caveat</dt><dd>Squarespace owns much of the platform code. The size of any speed gain is unknown until the changed page is tested.</dd></dl>
+      <div class="evidence">Source: research/2026-09-23-technical/evidence/performance/lab-inventory.md and evidence/2026-09-09/perf/perf-summary.json. These are lab tests; real-visitor speed data is unavailable.</div>
+      <dl class="fx"><dt>Action</dt><dd>If the newsletter is unused, Madi removes it; Seth measures the page again. The page also loads reCAPTCHA, but the newsletter's contribution has not been isolated.</dd><dt>Timing</dt><dd>First-month site pass and the 30-day check.</dd></dl>
     </div>
   </div>
 
   <div class="finding">
     <div class="fnum">05</div>
     <div>
-      <h3>One workshop image takes most of the Events page's loading time</h3>
-      <p>Events was different from the homepage: its largest image painted at a median 14.22 seconds in three mobile tests. In the first run, the `IMG_2987.png` request transferred about 773 KB, and image load time was 94% of that wait. If the workshop is current, a smaller export at the displayed size is worth trying; if the date has passed, hide the old event first.</p>
+      <h3>Events page image</h3>
+      <p>In three lab phone tests, the large Events image appeared after a median 14.22 seconds. Its first test transferred a 773 KB PNG. Madi should first confirm whether the April event is still relevant. If it stays, she can upload a smaller image at the displayed size; Seth can compare the same lab test. This speed work matters only if Events remains a live route to a current offer.</p>
       <div class="evidence">Lighthouse 12, three mobile runs, 23 Sep 2026. research/2026-09-23-technical/evidence/performance/events-mobile-1.json and performance/analysis.json. This is lab time, not a real-visitor measurement.</div>
     </div>
   </div>
@@ -638,8 +498,8 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
   <div class="finding">
     <div class="fnum">06</div>
     <div>
-      <h3>One unnamed link and small phone controls deserve a pass</h3>
-      <p>No page scrolls sideways at 390 pixels. The home page has one link with no name for a screen reader, and seven controls under 44 pixels; Events has nine small controls and six text blocks under 16 pixels. The newsletter email field is labelled, but contrast over background images could not be settled by the automated check. Name the link, enlarge the important tap areas and look at the result on a phone.</p>
+      <h3>Phone usability and accessibility</h3>
+      <p>A quick phone check found one homepage link without a name a screen reader can announce, plus several small tap targets on Home and Events. The newsletter email field has a label. We'd name the link, enlarge the important controls and check text over background images on an actual phone. This is a usability check, not an accessibility certification.</p>
       <div class="evidence">Playwright and axe-core, 10 pages at 390 px, 23 Sep 2026. research/2026-09-23-technical/evidence/crawl-summary.json and crawl-and-accessibility.json. This is a quick check, not an accessibility compliance finding.</div>
     </div>
   </div>
@@ -647,230 +507,118 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
   <div class="finding">
     <div class="fnum">07</div>
     <div>
-      <h3>The page code does not yet name Madi and her practice</h3>
-      <p>On the four indexed pages, the structured data is Squarespace's default "WebSite" block, with an empty description. Olivia Pham's site is on Squarespace too, and hers publishes an Organization and a LocalBusiness block with her street address, phone and email, the kind of block Squarespace writes from its business information settings <span class="tag">our read</span>.</p>
-      <dl class="fx"><dt>Fix</dt><dd>Fill in Squarespace's business information with only the location she approves. The appendix includes a Person and ProfessionalService block naming her credentials, Tulsa and Oklahoma; Missouri waits for confirmed authority and service details.</dd><dt>Effort</dt><dd>Madi, about 10 minutes for settings; Seth can review the block after she confirms the facts <span class="tag">estimate</span>.</dd><dt>Caveat</dt><dd>Code injection depends on her Squarespace plan and has not been checked. The block should agree with visible copy, not replace it.</dd></dl>
+      <h3>Practice details for search engines</h3>
+      <p>Squarespace's current page code has a general website label but no practice description. Once Madi approves the public name, location and credentials, she can fill in the business settings. Seth can then check whether the optional code in the appendix fits her plan and agrees with what visitors see. It will not replace clear page copy or guarantee a special Google result.</p>
+      <dl class="fx"><dt>Timing</dt><dd>After Madi confirms her practice facts; the appendix holds the code for Seth.</dd></dl>
     </div>
   </div>
 
-  <div class="note">A health-site trust check belongs beside the copy: make her current license easy to verify, name who wrote or reviewed new health information, and date real reviews of it. Those details help a reader judge the page; they do not promise a ranking gain. research/2026-09-23-gaps/findings.md F16.</div>
-
-  <div class="finding">
-    <div class="fnum">08</div>
-    <div>
-      <h3>Small things a visitor or a referrer would notice</h3>
-      <ul>
-        <li>Events still says "Registration Open!" with "Next Date: April 2026".</li>
-        <li>About says "HIPPA Compliant Telehealth Appointments"; the word is HIPAA.</li>
-        <li>All 14 booking buttons across four pages carry "?fbclid=..." on the end, a Facebook tracking code that was pasted in with the link. Booking works; the code just muddies tracking.</li>
-        <li>The menu's Services link points at /home#services, the duplicate homepage, instead of /#services.</li>
-        <li>The footer prints (417) 214-3131, matching her Google listing and PSI directory, but it is not a tap-to-call link on a phone.</li>
-        <li>Ask Madi to approve an urgent-help note. For crisis support, direct people to 988 and emergency services as appropriate. List Postpartum Support International's 1-800-944-4773 separately for non-emergency information, support and referrals; it is not a crisis line.</li>
-        <li>Events has no link from any page's text, only the menu.</li>
-      </ul>
-      <div class="evidence">Live pages, 23 Sep 2026; link graph from the 9 Sep crawl. PSI's HelpLine page says it is not for emergencies (postpartum.net/get-help/psi-helpline/, read 23 Sep 2026). The scheduler answers automated requests with an error code but renders normally for a person in a browser.</div>
-      <dl class="fx"><dt>Effort</dt><dd>Madi, about 30 minutes for all of them. Listed in her section.</dd></dl>
-    </div>
-  </div>
+  <div class="note">For new health information, we'd suggest making Madi's current license easy to verify and naming who wrote or reviewed the page. Bayless can work that into the copy if Madi agrees. The dated event, booking links, phone link and spelling correction are in Madi's first-month checklist. Source: research/2026-09-23-gaps/findings.md F16; research/2026-09-23-technical/evidence/technical-notes.md.</div>
 </section>
 
 <!-- ============ LOCAL + REFERRALS ============ -->
 <section id="local" class="brk">
   <div class="sec-head">
     <p class="kicker">Listings and provider referrals</p>
-    <h2>Her listings tell four different stories about where she is and what she does</h2>
-    <p>Madi wants providers to find her easily. A nurse or a doula looking her up, and the AI tools they increasingly ask, both lean on listings: Google's own, the Postpartum Support International directory, and whatever registries have her name. When those agree, she looks established. When they don't, the tools hedge or pick the wrong details.</p>
+    <h2>Her listings across the web</h2>
+    <p>The website, Google listing, PSI directory and scheduler show different addresses or offers. Madi can confirm the real locations and offers, then correct each public route a visitor may use to contact her.</p>
   </div>
 
   <div class="three">
     <div class="card">
-      <h3>Her Google Business Profile</h3>
+      <h3>Google Business Profile</h3>
       <ul>
         <li>"Madison Petersen LLC", category Mental health service</li>
-        <li>5.0 stars from 2 reviews, both 7 to 8 months old; one is from a referrer: "would trust her with any referral I make"</li>
+        <li>Two five-star reviews in the saved reading</li>
         <li>Phone (417) 214-3131, website linked, hours set</li>
         <li>No street address: it's a service-area listing drawn around Tulsa</li>
-        <li>Attributes: LGBTQ+ friendly, women-owned</li>
       </ul>
       <span class="src">Google Maps, 23 Sep 2026</span>
     </div>
     <div class="card">
-      <h3>Where she didn't show</h3>
+      <h3>Search results and directories</h3>
       <ul>
         <li>No map result for "miscarriage", "perinatal" or "postpartum therapist tulsa"</li>
         <li>No business panel on a search for her own name and credentials</li>
-        <li>No Psychology Today profile found. That directory is the one Google's AI Overview and Perplexity both cite for Tulsa perinatal searches; it lists 1,000+ Tulsa therapists at an average of $147 a session</li>
+        <li>No Psychology Today profile found in the saved name search; one paid trial could be considered if she has capacity</li>
       </ul>
       <span class="src">Live results and a name search of Psychology Today's Tulsa directory, 23 Sep 2026</span>
     </div>
     <div class="card">
-      <h3>The strongest thing she has</h3>
+      <h3>Postpartum Support International</h3>
       <ul>
         <li>An article she wrote for Postpartum Support International, published 5 June 2026, that links to her site and Instagram</li>
         <li>A PSI directory listing dated 5 August 2026</li>
-        <li>PSI's list of September 2024 PMH-C recipients names her (cited by Perplexity; I didn't open it)</li>
       </ul>
-      <p class="small muted">A link from the field's main organization is worth more than most listings put together <span class="tag">our read</span>.</p>
+      <p class="small muted">Her own article is a useful source to link from the revised About page.</p>
       <span class="src">postpartum.net and psidirectory.com, 23 Sep 2026</span>
     </div>
   </div>
 
-  <div class="note"><strong>First settle the map setting with Madi.</strong> Does she see people at a staffed office, visit clients in person, or work only online? Google treats those differently when deciding whether a Business Profile is eligible and whether an address should appear. Her existing Tulsa profile is worth improving, but online Missouri appointments alone would not make Missouri a physical map service area. research/2026-09-23-gaps/findings.md F01 and F02; Google Business Profile guidelines, read 23 Sep 2026.</div>
+  <div class="note"><strong>Address choice comes first.</strong> Madi needs to confirm whether clients meet her at an eligible office, she visits clients, or she works only online. Google's listing rules treat those models differently. A home address alone does not settle what to show, and online Missouri appointments alone would not make Missouri a physical map service area. Source: research/2026-09-23-gaps/findings.md F01/F02; Google Business Profile guidelines, read 23 Sep 2026.</div>
 
-  <h3 style="margin:30px 0 10px">Name, address and phone, source by source</h3>
+  <h3 style="margin:30px 0 10px">How her details differ across listings</h3>
   <div class="tw"><table>
-    <thead><tr><th>Source</th><th>Name and credential</th><th>Address</th><th>Phone</th><th>Worth knowing</th></tr></thead>
+    <thead><tr><th>Source</th><th>Name and credential</th><th>Address shown</th><th>Phone</th><th>Notes</th></tr></thead>
     <tbody>
       <tr><td>Her website</td><td>Madison Petersen, LCSW, PMH-C</td><td>"Tulsa, OK" in the footer</td><td class="nw">(417) 214-3131</td><td>footer number is plain text; email link on Expressive Art</td></tr>
       <tr><td>Google Business Profile</td><td>Madison Petersen LLC</td><td>none (service area)</td><td class="nw">(417) 214-3131</td><td></td></tr>
       <tr><td>PSI directory</td><td>Madison Petersen, LCSW, PMH-C</td><td>4106 E 103rd St, Tulsa, OK 74137</td><td class="nw">(417) 214-3131</td><td>"Perinatal loss and grief"</td></tr>
       <tr><td>Her scheduler (Sessions Health)</td><td>Madison Petersen LLC</td><td>4106 E 103rd St, Tulsa; also "Seen + Held, The Office Tulsa, 5401 S Harvard Ave"</td><td></td><td>two locations</td></tr>
       <tr class="flag"><td>Bornbir</td><td>Madison Petersen, "LSCSW"</td><td>Tulsa</td><td>not listed</td><td>says she offers "in home counseling for postpartum mothers"; credential typo</td></tr>
-      <tr><td>Facebook, Instagram</td><td>Madison Petersen LLC</td><td>Tulsa</td><td></td><td>Facebook mentions home visits for newly postpartum moms; Instagram says Oklahoma and Missouri</td></tr>
       <tr class="flag"><td>Federal NPI registry, NPI 1295073807</td><td>Madison Paige Petersen, BSW, "Behavior Analyst"</td><td>2325 S Harvard Ave and 650 S Peoria Ave (Family &amp; Children's Services)</td><td class="nw">918-712-4301</td><td>created 2013, last updated June 2013</td></tr>
-      <tr class="flag"><td>Healthline, Doximity, dr-leonardo.com</td><td>Madison Petersen, BSW, behavior analyst</td><td>same as the NPI record</td><td class="nw">918-712-4301</td><td>Healthline adds "Accepting new patients" and "Accepts Cigna"</td></tr>
+      <tr class="flag"><td>Copies of the 2013 NPI record</td><td>Madison Petersen, BSW, behavior analyst</td><td>old addresses</td><td class="nw">918-712-4301</td><td>Healthline and Doximity repeat the record; check each after any correction</td></tr>
     </tbody>
   </table></div>
-  <p class="cap">evidence/2026-09-23/local-and-directories.md. The NPI record, Healthline, Doximity and Dr Leonardo are one 2013 record copied outward; that it's Madi's is our read (same full name, Tulsa, social work, and 2013 fits before "practicing since 2015"). Question 4 settles it.</p>
+  <p class="cap">Source: evidence/2026-09-23/local-and-directories.md. Whether the 2013 NPI record belongs to Madi is still unconfirmed; question 4 settles it.</p>
   <div class="prose">
     <p>The 4106 E 103rd St address is the one PSI and her scheduler agree on, while her Google listing and her site show none. Madi should first confirm where clients actually meet her and which address she wants public. Keep the practice facts consistent, but use each listing's rules for address display. For Google, confirm whether she receives clients at an eligible office or travels to them before choosing address and service-area settings. A home address alone does not settle that choice. Question 2 asks her.</p>
-    <p>The 2013 registry record matters more than it looks. Perplexity read it back as "listed in connection with Family &amp; Children's Services" when asked who she is. If it's hers, correcting the source is a start; Healthline, Doximity and the other copies then need a public read-back. None is guaranteed to update on its own.</p>
+    <p>An AI answer repeated the 2013 registry record. If the record is hers, correcting it is a start; Healthline, Doximity and the other copies then need a public check. None is guaranteed to update on its own.</p>
   </div>
-  <h3 style="margin:26px 0 10px">Clean up the profiles she has before opening new ones</h3>
+  <h3 style="margin:26px 0 10px">Which listings to update first</h3>
   <div class="prose">
-    <ol>
-      <li><strong>Madi confirms one master set of facts:</strong> visit modes, public address, phone, current offer, fees, home visits and Missouri status. No listing editor should guess.</li>
-      <li><strong>Match the site and scheduler, then Google and PSI.</strong> Keep the public address choice intentional and check the booking link in a phone browser.</li>
-      <li><strong>Fix Bornbir's "LSCSW" and its offer.</strong> It says the first face-to-face session is free and mentions home visits; her site offers a free 20 minute telehealth consult. Madi decides whether both offers are real.</li>
-      <li><strong>Settle the old NPI identity.</strong> If it is hers, correct the record, then check each public copy. If it is not, do not edit it.</li>
-    </ol>
+    <p>After Madi confirms the facts, we'd match the site and scheduler, then Google and PSI, then Bornbir. Bornbir's "LSCSW", home-visit wording and free first face-to-face session need her review. The old NPI record is a separate identity question: edit it only if Madi confirms it is hers, then check the sites that copied it. These steps are assigned in the first 30 days of the plan.</p>
   </div>
   <p class="cap">Saved directory read: evidence/2026-09-23/local-and-directories.md. Fresh Bornbir check and ordered cleanup: research/2026-09-23-gaps/findings.md F04 and F22. Effort depends on each publisher's turnaround.</p>
-  <div class="note"><strong>The next directory, if she has room for new inquiries:</strong> check whether she already has a Psychology Today profile, then consider one paid trial. TherapyDen's free tier does not appear in its own internal search, and Open Path involves a lower-fee capacity commitment; neither is a default signup. Insurance directories belong on the list only for plans she actually accepts. research/2026-09-23-gaps/findings.md F05 and F06.</div>
+  <div class="note">If Madi has room for new inquiries after the existing listings are accurate, she could check whether she already owns a Psychology Today profile and consider one paid trial. It is optional, and the 31-to-60-day plan leaves room to choose a useful resource instead. Source: research/2026-09-23-gaps/findings.md F05/F06.</div>
 </section>
 
 <!-- ============ AI ============ -->
 <section id="ai" class="brk">
   <div class="sec-head">
     <p class="kicker">AI assistants</p>
-    <h2>AI assistants already name her, quoting other people's pages</h2>
-    <p>You said on the call that AI is case by case, and that Madi wants providers to find her easily. Providers asking an assistant "who should I refer a postpartum patient to in Tulsa" is exactly the case where being findable helps, so this section is written for her goal. Whether she wants it stays her call (question 5).</p>
+    <h2>What AI assistants say about Madi</h2>
+    <p>These answers vary by question and tool. In the saved tests, assistants sometimes found Madi through other people's listings and repeated an outdated or incorrect detail. We suggest making her own referral information easy to find, if Madi is comfortable with assistants reading her site.</p>
   </div>
 
   <div class="three">
-    <div class="card"><h3>Access: open</h3><p class="small">Her robots.txt lets in all 28 AI crawlers it names (GPTBot, ClaudeBot, Google-Extended, Applebot-Extended and the rest) plus every other crawler. Only Squarespace's standard system folders are closed.</p><span class="src">robots.txt, 9 and 23 Sep 2026</span></div>
-    <div class="card"><h3>Google's AI features: 51 showings</h3><p class="small">Search Console's new AI report shows her site in Google's AI answers 51 times since mid-May, mostly the homepage (40) and About (12). Analytics logged one visit from ChatGPT, which stayed over a minute.</p><span class="src">Search Console Generative AI report; GA4, 23 Sep 2026</span></div>
-    <div class="card"><h3>What they quote: not her site</h3><p class="small">In three test questions, the AI tool named her twice as a referral option, both times linking her Bornbir listing, once calling her an LMFT. Asked who she is, it cited 15 pages and none was her website.</p><span class="src">Perplexity, 23 Sep 2026</span></div>
+    <div class="card"><h3>Crawler access</h3><p class="small">The saved robots.txt does not block named AI crawlers from public content. That does not prove an assistant indexed the site. Madi can decide whether to change the setting.</p><span class="src">robots.txt, 9 and 23 Sep 2026</span></div>
+    <div class="card"><h3>Google's AI results</h3><p class="small">Search Console recorded 51 appearances in Google's AI results since mid-May. This counts appearances, not referrals or appointments.</p><span class="src">Search Console Generative AI report, 23 Sep 2026</span></div>
+    <div class="card"><h3>Sources cited in the test answers</h3><p class="small">In two referral answers, the assistant linked her Bornbir listing and once gave the wrong license. Her own site was not cited. That is one tool and a few questions, not a visibility score.</p><span class="src">Perplexity, 23 Sep 2026</span></div>
   </div>
 
-  <h3 style="margin:30px 0 10px">Three questions, asked the way a provider or a mom would</h3>
-  <div class="tw"><table>
-    <thead><tr><th>Question asked</th><th>Did it name Madi?</th><th>Linked to</th><th>What it got wrong or had to guess</th></tr></thead>
-    <tbody>
-      <tr><td>An OB nurse in Tulsa asks who to refer a patient to after pregnancy loss or for postpartum depression</td><td>Yes, third of six (after Olivia Pham and Her Mind Tulsa)</td><td>bornbir.com</td><td>Describes in-home postpartum visits, from Bornbir; her own site doesn't mention them</td></tr>
-      <tr><td>"Who is Madison Petersen LCSW PMH-C in Tulsa... how do I book?"</td><td>Yes, accurately on credentials and focus</td><td>15 sources, none her website</td><td>Repeats the 2013 Family &amp; Children's Services record; can't give a booking route beyond "contact her practice"</td></tr>
-      <tr><td>"Best therapist for miscarriage and pregnancy loss grief in Tulsa"</td><td>Yes, one of three "best first calls"</td><td>bornbir.com</td><td>Calls her an LMFT; she's an LCSW</td></tr>
-    </tbody>
-  </table></div>
-  <p class="cap">Perplexity's Sonar Pro model through its API, one run per question, 23 Sep 2026 (evidence/2026-09-23/serp-and-ai-answers.md). Answers vary run to run and between products, so this is a spot check, not a score. Nobody can produce an honest visibility score without running prompts like these many times.</p>
-
-  <div class="note">A fourth, broader question about postpartum depression in Tulsa did not name Madi in one fresh Sonar Pro answer. The earlier three still show that she can be found for referral, identity and loss questions. The difference is a reason to keep the exact questions and tool fixed at the next check, not a percentage score. research/2026-09-23-gaps/evidence/freshai.txt, 23 Sep 2026.</div>
-
-  <div class="prose">
-    <p><strong>What makes providers and AI tools find her, and quote her own site:</strong></p>
-    <ul>
-      <li><strong>Credentials in plain words, on the page.</strong> Licensed Clinical Social Worker; PMH-C, the perinatal mental health certification from Postpartum Support International; Perinatal Grief &amp; Loss training; Internal Family Systems; Accelerated Resolution Therapy. Today the site says "LCSW PMH-C" without saying what they are.</li>
-      <li><strong>Specialties by their plain names:</strong> postpartum depression, postpartum anxiety, miscarriage, pregnancy loss, stillbirth, infertility, unexpected pregnancy. Depression and anxiety appear nowhere on the site today.</li>
-      <li><strong>Service area in one sentence:</strong> in person in Tulsa, telehealth anywhere in Oklahoma, Missouri once licensed.</li>
-      <li><strong>Answers to real questions,</strong> each starting directly so readers can find them quickly and search tools can understand the page. That's the FAQ in the brief.</li>
-      <li><strong>A page written to providers,</strong> so the referral question has an answer on her own site to quote.</li>
-      <li><strong>Listings that agree</strong> with the site, and the business details filled in (finding 07).</li>
-    </ul>
-    <p>One sentence carries most of it. Something like this, in her voice, near the top of the homepage and the About page:</p>
-  </div>
-  <p class="quote">Madi Petersen, LCSW, PMH-C, is a perinatal therapist in Tulsa, Oklahoma. She sees women through pregnancy, postpartum, miscarriage, stillbirth and infertility, in person in Tulsa or by telehealth anywhere in Oklahoma.</p>
-  <div class="prose"><p class="small muted">No llms.txt file exists on the site. It's an emerging convention, not a standard, and not worth her money.</p></div>
-</section>
-
-<!-- ============ COMPARE ============ -->
-<section id="compare" class="brk">
-  <div class="sec-head">
-    <p class="kicker">Side by side · Olivia Pham, LMFT, PMH-C</p>
-    <h2>Olivia says "postpartum therapist, Tulsa" in the places Google reads first</h2>
-    <p>Olivia is the comparison the brief named: same city, same platform, same certification, a solo practice. She's the right target because the gap between them is words and settings, not size or budget.</p>
-  </div>
-  <div class="shots">
-    <div><img src="img/madi-home-desktop.png" alt="Madi's homepage first screen on a desktop: 'Hey, you're a person too.' and a Services band"><p class="shot-label">Madi · homepage, first screen, 1440 px</p></div>
-    <div><img src="img/olivia-home-desktop.png" alt="Olivia Pham's homepage first screen: a small line 'Therapy for women in Oklahoma' above her heading"><p class="shot-label">Olivia Pham · homepage, first screen, 1440 px</p></div>
-  </div>
-  <p class="cap">Captured 23 Sep 2026. Olivia puts one small line, "Therapy for women in Oklahoma", above her headline. Madi's headline could keep its warmth with the same kind of line beside it.</p>
-
-  <div class="tw"><table>
-    <thead><tr><th></th><th>Madi</th><th>Olivia Pham</th></tr></thead>
-    <tbody>
-      <tr><td>Homepage search title</td><td>Madison Petersen, LCSW, PMH-C | Explore Healing Today</td><td>Olivia Pham, LMFT | Postpartum Therapist - Tulsa</td></tr>
-      <tr><td>Condition and city in the title</td><td>No</td><td>Yes</td></tr>
-      <tr><td>Homepage words a visitor can read</td><td>369</td><td>2,196</td></tr>
-      <tr><td>Main headings (H1) on the homepage</td><td>2, both the footer line</td><td>1, "Support for the Heart of the Home"</td></tr>
-      <tr><td>Business details in the page code</td><td>None</td><td>Organization and LocalBusiness, with address and phone</td></tr>
-      <tr><td>Pages in the sitemap</td><td>9, five of them the blog placeholders</td><td>11, including three articles with Tulsa in the address and pages for postpartum, birth trauma and therapy for moms</td></tr>
-      <tr><td>Street address published</td><td>No</td><td>Yes, 4312 E 51st St</td></tr>
-      <tr><td>In Google's AI Overview for "postpartum therapist tulsa"</td><td>No</td><td>Yes, named first</td></tr>
-      <tr><td>In the map results for "perinatal therapist tulsa"</td><td>No</td><td>Yes, first</td></tr>
-      <tr><td>Mentions of miscarriage on the homepage</td><td>1</td><td>0</td></tr>
-    </tbody>
-  </table></div>
-  <p class="cap">Homepages fetched and counted the same way for both, 23 Sep 2026 (evidence/2026-09-23/comps-verified.json); word counts include menus and footers. Live results as in the section above.</p>
-  <div class="prose">
-    <p>They aren't really competing for the same person. Olivia writes to "high-achieving Oklahoma moms" about postpartum anxiety, intrusive thoughts, rage and perfectionism, and her homepage never mentions miscarriage or infertility. Madi's strengths in the brief are grief, loss, infertility and depression, plus the provider relationships. That's room, not a fight. Where they do overlap, postpartum in Tulsa, Olivia's advantage is that she says it plainly in her title, her first screen and her business details.</p>
-    <p>Directories recur in the saved condition searches. A relevant listing can be more practical than trying to match their page count.</p>
-  </div>
-  <h3 style="margin:26px 0 10px">Three other useful examples answer different parts of the decision</h3>
-  <div class="tw"><table>
-    <thead><tr><th>Public page</th><th>What it makes easy to find</th><th>The useful move for Madi</th></tr></thead>
-    <tbody>
-      <tr><td>Cedar Tree Counseling</td><td>A dedicated postpartum depression and anxiety explanation</td><td>Name the conditions she actually treats in visible copy</td></tr>
-      <tr><td>Rachel Obadiah, Her Mind Tulsa</td><td>A clinician profile naming infertility, perinatal grief, fees and a consult</td><td>Put specialty and practical details together</td></tr>
-      <tr><td>Family &amp; Children's Services</td><td>A maternal mental-health program page with a referral route</td><td>Tell referring offices what happens after they send someone</td></tr>
-    </tbody>
-  </table></div>
-  <p class="cap">Public page reads, research/2026-09-23-gaps/evidence/pageexcerpts.txt. These are content observations, not proof of why any page ranks or a comparison of clinical care.</p>
+  <p>The earlier referral, identity and loss questions named her in all three tests, but none cited her website. One referral answer linked Bornbir and called her an LMFT instead of an LCSW. A separate broad postpartum question did not name her. This is a spot check, not a visibility score. Source: evidence/2026-09-23/serp-and-ai-answers.md; research/2026-09-23-gaps/evidence/freshai.txt.</p>
+  <div class="note">The practical response is already in the plan: Bayless develops the provider page and clear About copy; Madi confirms the public facts and corrects Bornbir. At the 90-day check, Seth can repeat the same saved questions. Madi decides whether she wants the site open to these tools.</div>
 </section>
 
 <!-- ============ ANALYTICS ============ -->
 <section id="analytics" class="brk">
   <div class="sec-head">
     <p class="kicker">Google Analytics · baseline</p>
-    <h2>Six weeks of visits, and booking clicks counted from today</h2>
-    <p>Her Analytics only has data from about 10 August 2026, so its "12 months" is really six weeks. Search Console is the long-history instrument; Analytics tells us what visitors do once they arrive.</p>
+    <h2>Website visits and booking-page clicks</h2>
+    <p>Analytics began collecting around 10 August 2026, so this is about six weeks of visits. Search Console covers the longer search history. The useful distinction here is simple: a click to the scheduler shows interest, but only Madi's practice system can tell us whether someone requested an appointment.</p>
   </div>
   <div class="stats">
     <div class="stat"><div class="n">156</div><div class="l">visits (sessions)</div></div>
     <div class="stat"><div class="n">124</div><div class="l">people</div></div>
     <div class="stat"><div class="n">16</div><div class="l">clicked through to the booking page, about 13%</div></div>
-    <div class="stat"><div class="n">1</div><div class="l">visit from an AI assistant (ChatGPT)</div></div>
+    <div class="stat"><div class="n">39</div><div class="l">visits from search</div></div>
   </div>
   <span class="src">GA4 property 549414357, 10 Aug to 22 Sep 2026, read 23 Sep 2026</span>
-  <div class="tw" style="margin-top:14px"><table>
-    <thead><tr><th>How visitors arrived</th><th class="n">Visits</th><th class="n">Engaged</th><th>Worth knowing</th></tr></thead>
-    <tbody>
-      <tr><td>Direct (typed, bookmarks, texts, many apps)</td><td class="n">85</td><td class="n">33%</td><td></td></tr>
-      <tr><td>Google and other search</td><td class="n">39</td><td class="n">49%</td><td>35 from Google, 4 from DuckDuckGo</td></tr>
-      <tr class="hl"><td>Social</td><td class="n">31</td><td class="n">74%</td><td>Instagram's 20 visits were engaged 90% of the time, her most attentive visitors</td></tr>
-      <tr><td>AI assistant</td><td class="n">1</td><td class="n">100%</td><td>chatgpt.com, 1 minute 3 seconds</td></tr>
-    </tbody>
-  </table></div>
   <div class="prose">
-    <p>The Instagram number matches what the brief says about the birth world finding her there. Top cities by visitors: Dallas 16, Springfield 12, Tulsa 10, Oklahoma City 7; a few more are data-center towns, which usually means automated traffic <span class="tag">our read</span>. Springfield may be real interest (her 417 number, the Missouri plans) or people at Kidsister, so I didn't filter it out. 65 visitors were on phones, 57 on desktop.</p>
-    <p><strong>Set up on 23 September, read back in both tools:</strong></p>
-    <ul>
-      <li>Search Console access for Seth, verified through her Analytics tag. Madi stays the owner; nothing was needed from her.</li>
-      <li>Search Console linked to Analytics, so search terms show up inside Analytics.</li>
-      <li>A booking event: any click through to her scheduler now counts as "booking_click" and is marked as a key event. It counts from 23 September forward. It does not say whether someone requested or attended an appointment.</li>
-      <li>Her sitemap resubmitted; Google hadn't read it since April.</li>
-    </ul>
-    <p class="small muted">Left alone on purpose: no filter for Springfield visits, data retention untouched, and the reporting time zone is Los Angeles rather than Central, which only shifts late-night visits by a day.</p>
-    <p><strong>Keep the next measure private and simple.</strong> Madi can compare these clicks with an aggregate count of actual consult requests and available appointments from her practice system. Names, health concerns, form contents and full booking URLs do not belong in GA4. Seth should review what the public site sends before adding more events; a cookie banner or an event name alone does not settle the privacy question.</p>
+    <p>Instagram brought 20 visits in the saved period, which fits the referral picture in the brief. We would keep that channel in the monthly read without treating six weeks as a trend.</p>
+    <p>A new <code>booking_click</code> event began counting scheduler clicks on 23 September. It starts from zero and cannot tell us whether a consult was requested or attended. Madi can compare it with an aggregate count of actual consult requests from her practice system.</p>
+    <p>That comparison should stay private and simple. Names, health concerns, form contents and full booking URLs do not belong in GA4. Seth should review what the public site sends before adding more events. The appendix has the monthly measures, and the 30/60/90 plan names the check-ins.</p>
     <span class="src">GA4 event definition: evidence/2026-09-23/ga4-read.md. Privacy and tracking limits: research/2026-09-23-gaps/findings.md F13 to F15; research/2026-09-23-technical/assets/measurement-plan.md.</span>
   </div>
 </section>
@@ -879,103 +627,72 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
 <section id="brief" class="brk">
   <div class="sec-head">
     <p class="kicker">Copy brief · 10 hours</p>
-    <h2>Where your ten hours go, page by page</h2>
-    <p>This part is for you, so it's written from the search side only. The words and the order are yours.</p>
+    <h2>What to write on each page</h2>
+    <p>Use the ten planned copy hours to make the next step visible on each key page. Madi confirms the service, fees, locations and what happens after a request; Bayless writes from those answers. The proposed SEO fields are in the appendix.</p>
   </div>
 
   <div class="prose">
-    <p><strong>Where I'm coming from</strong></p>
-    <ol>
-      <li><strong>The existing writing is the asset.</strong> "Hey, you're a person too.", "I sit with women in all stages, from trying to conceive for the first time...", "All of it is sacred to me." None of that should go. Everything below adds specific words around the voice expressed; if a suggestion fights it, the voice wins and I'll find another way to carry the term.</li>
-      <li><strong>Her lane is loss, grief, infertility and depression, plus the provider relationships.</strong> Search already rewards the loss side (the About page on page one for miscarriage and perinatal). Postpartum in Tulsa is the crowded part.</li>
-      <li><strong>Two readers now, not one.</strong> Moms at a low point, and the OBs, midwives and doulas who send them. The second reader has almost no words on the site today.</li>
-    </ol>
-    <p><strong>Rules for every page</strong></p>
+    <p>Keep Madi's opening line. Add confirmed practical details and a clear next step near the first call to action. About already speaks to professional education; a referral page can give a referring office the approved route.</p>
+    <p><strong>Useful checks as you write</strong></p>
     <ul>
-      <li>One Heading 1 per page that says what the page is about. Styled lines like "Hey, you're a person too." can stay styled; they just shouldn't be the only heading.</li>
-      <li>The city and the state in the first paragraph, naturally: Tulsa, Oklahoma, and telehealth across Oklahoma.</li>
-      <li>Each condition by its plain name at least once where it fits: postpartum depression, postpartum anxiety, miscarriage, pregnancy loss, stillbirth, infertility.</li>
-      <li>"Madi" and "Madison Petersen" both on the page (About already does this). Warmth and first names are fine; Google doesn't mind.</li>
-      <li>Descriptions around 150 characters, ending with the free 20 minute consult.</li>
-      <li>Start with a direct answer so readers can find it quickly and search tools can understand the page.</li>
+      <li>Give each page one clear main heading. A warm opening line can stay alongside it.</li>
+      <li>Where it fits naturally, name Tulsa, Oklahoma, the visit options and the conditions Madi confirms she treats.</li>
+      <li>Answer practical questions directly, especially fees, insurance and what happens after someone asks for a consult.</li>
     </ul>
   </div>
 
   <div class="brief-card">
     <div class="hdr"><h3>1. Homepage</h3><span class="hrs">about 3 hours · do first</span></div>
     <dl class="spec">
-      <dt>Search title</dt><dd><span class="paste">Postpartum & Pregnancy Loss Therapy in Tulsa | Madison Petersen</span> <span class="muted small">63 characters</span></dd>
-      <dt>Description</dt><dd><span class="paste">Therapy for pregnancy, postpartum and pregnancy loss in Tulsa, in person or by telehealth across Oklahoma. Free 20 minute consult with Madi.</span></dd>
-      <dt>Heading 1</dt><dd>A real one in the first screen, something like "Therapy for pregnancy, postpartum and loss in Tulsa". Keep "Hey, you're a person too." as the styled opening line beside it.</dd>
-      <dt>Length</dt><dd>450 to 650 words a visitor can read (about 369 today, counting menus).</dd>
-      <dt>Phrases people used</dt><dd><ul>
-        <li>"postpartum therapist in tulsa", 20 showings, position 17.2</li>
-        <li>"ppd therapist tulsa" and "postpartum depression", 14 and 13</li>
-        <li>"postpartum anxiety therapist tulsa", 6, position 24.5</li>
-        <li>"miscarriage therapist", positions 2 to 3 when it appears</li>
-        <li>"pregnancy therapist", "postpartum mental health support"</li>
-      </ul></dd>
-      <dt>Must say</dt><dd>Who she sees (women in the childbearing years: pregnancy, postpartum, miscarriage, stillbirth, infertility, unexpected pregnancy), where (Tulsa office, telehealth anywhere in Oklahoma), her credentials in plain words, the free 20 minute consult, and a link to the provider section.</dd>
-      <dt>The one move</dt><dd>Bring the useful wording from her hidden description into the first visible paragraph, then add the missing condition names in Madi's voice.</dd>
-      <dt>Answers briefly</dt><dd>"Is this normal?" and "What does it cost?", each linking to the fuller answer.</dd>
+      <dt>Keep</dt><dd>"Hey, you're a person too." and the direct, welcoming tone.</dd>
+      <dt>Add</dt><dd>A clear main heading, confirmed service and location wording, Madi's credentials, and an early "Request a free 20 minute consult" button. Point it to <code>/request</code> after Madi confirms that route and the offer. Madi approves any new condition names.</dd>
+      <dt>Connect</dt><dd>Place the free offer beside the button; link to fees and a brief Madi-approved answer about what follows the request. Link to the provider route once it exists.</dd>
     </dl>
   </div>
 
   <div class="brief-card">
     <div class="hdr"><h3>2. About</h3><span class="hrs">about 1.5 hours</span></div>
     <dl class="spec">
-      <dt>Search title</dt><dd><span class="paste">Tulsa Miscarriage & Postpartum Therapist | Madison Petersen</span> <span class="muted small">59 characters. Keeps the phrase Google already prints for this page; drops "Team 1".</span></dd>
-      <dt>Description</dt><dd><span class="paste">Madi Petersen, LCSW, PMH-C, a Tulsa therapist since 2015, for pregnancy, postpartum, pregnancy loss and infertility. Free 20 minute consult.</span></dd>
-      <dt>Heading 1</dt><dd>"Hi! I'm Madi!" is fine; it's just set as a Heading 2 today.</dd>
-      <dt>Length</dt><dd>Keep it. This is her strongest page for search.</dd>
-      <dt>Must add</dt><dd>What the letters mean: Licensed Clinical Social Worker; PMH-C, certified in perinatal mental health by Postpartum Support International in 2024; Perinatal Grief &amp; Loss training. The words "postpartum depression" and "postpartum anxiety", which aren't on the site anywhere. A line pointing to her June 2026 article for Postpartum Support International. HIPAA spelled right.</dd>
-      <dt>Worth knowing</dt><dd>Private practice since 2020: the site and her PSI author bio agree; the brief says 2021.</dd>
+      <dt>Keep</dt><dd>The personal introduction and existing paragraph about training and consultation for other professionals.</dd>
+      <dt>Add</dt><dd>One clear main heading, a page description, plain meanings for LCSW and PMH-C, and a free consult CTA beside the fees. Add the insurance answer and what happens next only after Madi confirms them. Link to her PSI article. Madi approves any depression and anxiety wording.</dd>
+      <dt>Check</dt><dd>Replace the working title "Team 1" and fix "HIPPA" to "HIPAA". Her site and PSI bio say private practice since 2020; the brief says 2021, so Madi should settle that date before copy uses it.</dd>
     </dl>
   </div>
 
   <div class="brief-card">
     <div class="hdr"><h3>3. For providers (new section or page)</h3><span class="hrs">about 2 hours</span></div>
     <dl class="spec">
-      <dt>Search title</dt><dd><span class="paste">For OBs, Midwives & Doulas | Madison Petersen, LCSW, Tulsa</span> <span class="muted small">58 characters</span></dd>
-      <dt>Description</dt><dd><span class="paste">Referring a patient? Madi Petersen, LCSW, PMH-C, sees women in Tulsa and by telehealth across Oklahoma for perinatal mood, anxiety and loss.</span></dd>
-      <dt>Heading 1</dt><dd>"For OBs, midwives and doulas", or "Referring a patient".</dd>
-      <dt>Length</dt><dd>250 to 400 words.</dd>
-      <dt>Must say</dt><dd>Who she sees; how to refer (the scheduler's request link and an approved professional contact route); availability and response time only after Madi confirms them; in person in Tulsa and telehealth across Oklahoma; what she already does for providers (Q&amp;As, lunch-and-learns, trainings, professional consultation at $150 an hour, the "Support for Birth Workers" workshop).</dd>
-      <dt>Referral handoff</dt><dd>Give an OB, midwife or doula one clear path: who is a fit, fees and actual insurance status, how to request the consult, and how Madi coordinates with the referring office with consent. Keep patient histories out of public forms and ordinary marketing email. Madi supplies the secure route and the "what happens next" wording.</dd>
-      <dt>Optional reuse</dt><dd>A dated one-page referral sheet can repeat approved facts and point back to this page. Make it later only if her partners would use it, about 1 to 2 extra hours <span class="tag">estimate</span>.</dd>
-      <dt>A line to copy</dt><dd><span class="paste">Madi Petersen, LCSW, PMH-C (Tulsa): perinatal therapy for pregnancy, postpartum and pregnancy loss, in person or by telehealth across Oklahoma. Free 20 minute consult at madisonpetersenllc.com.</span></dd>
-      <dt>Why it's worth two hours</dt><dd>Olivia's homepage doesn't speak to providers either, and a page like this gives an AI assistant answering a nurse's question something on her own site to quote instead of Bornbir. Link it from the homepage and the menu.</dd>
+      <dt>Start with</dt><dd>About already offers professional education and consultation. A separate referral page could answer the practical patient-referral questions for OBs, midwives and doulas.</dd>
+      <dt>Include</dt><dd>Who is a fit, confirmed fees and insurance status, visit options, and a button to the approved referral or consult route. Availability, response time and coordination need Madi's answer. Link from Home and the menu.</dd>
+      <dt>Keep private</dt><dd>Madi supplies the secure referral route. Patient histories do not belong in public forms or ordinary marketing email.</dd>
+      <dt>Later option</dt><dd>A one-page referral sheet could repeat the approved facts if her partners would use it. That would be separate work, estimated at 1 to 2 hours.</dd>
     </dl>
   </div>
 
   <div class="brief-card">
     <div class="hdr"><h3>4. Questions moms ask (FAQ)</h3><span class="hrs">about 2 hours</span></div>
     <dl class="spec">
-      <dt>Where</dt><dd>On About, or its own page if it runs long. One section heading, each question its own smaller heading.</dd>
-      <dt>From the brief</dt><dd>Am I crazy? Am I a bad mom? Is this normal? How often do we meet? Can my partner come? What does it cost? How long does therapy take? How does it work?</dd>
-      <dt>The data adds</dt><dd>Do you take insurance? (not stated anywhere today; Madi supplies the fact.) Can I see you if I live outside Tulsa, or in Missouri? Do you do home visits? (question 3.) Ask Madi to approve a short urgent-help note: 988 and emergency services for crisis support; PSI's 1-800-944-4773 separately for non-emergency information, support and referrals. PSI's line is not a crisis line.</dd>
-      <dt>Shape</dt><dd>40 to 80 words each; the first sentence answers directly once Madi confirms the facts. Do not promise partner attendance or a standard treatment length from the current site.</dd>
-      <dt>Worth knowing</dt><dd>Google removed FAQ rich results in May 2026, so the value is for readers and a clear explanation on her site. I can add matching page code once the copy is final. Source: Google Search documentation changelog, 7 May and 15 June 2026, developers.google.com/search/updates.</dd>
+      <dt>Start with</dt><dd>The brief's questions about feeling normal, session frequency, partners, cost and how therapy works. Add insurance, home visits and telehealth only after Madi confirms the answers. These can live on About or on their own page if the section grows.</dd>
+      <dt>Do not guess</dt><dd>The current site does not establish insurance terms, partner attendance or a standard treatment length. Madi approves clinical and practical answers.</dd>
+      <dt>Urgent help</dt><dd>Ask Madi to approve a short note: 988 and emergency services are for crisis support. PSI's 1-800-944-4773 offers non-emergency information, support and referrals; it is not a crisis line. Source: postpartum.net/get-help/psi-helpline/, read 23 September 2026.</dd>
     </dl>
   </div>
 
   <div class="brief-card">
     <div class="hdr"><h3>5. Expressive Art and Events</h3><span class="hrs">about 1 hour</span></div>
     <dl class="spec">
-      <dt>Search titles</dt><dd><span class="paste">Expressive Art Therapy in Tulsa | Madison Petersen, LCSW</span> <span class="muted small">56</span><br><span class="paste" style="margin-top:6px">Perinatal Workshops in Tulsa | Madison Petersen, LCSW</span> <span class="muted small">53</span></dd>
-      <dt>Heading 1</dt><dd>One each. Expressive Art has none today; Events has five.</dd>
-      <dt>Must say</dt><dd>"Expressive art therapy in Tulsa" plainly, and how it connects to her perinatal work. On Events, the April 2026 date goes, and the "coming soon" list (Miscarriage Support, Grief and Loss, Support for Birth Workers) is the most on-brand content on the page; a sentence each would help.</dd>
+      <dt>Expressive Art</dt><dd>The live page says Studio Time is for existing clients. Confirm that and label its booking button accordingly. Keep the existing email inquiry route for art questions and make its purpose plain.</dd>
+      <dt>Events</dt><dd>Remove or update the April 2026 date. If a workshop is current, name the date, cost, intended attendee and specific inquiry or registration route after Madi confirms them.</dd>
     </dl>
   </div>
 
   <div class="brief-card">
-    <div class="hdr"><h3>6. Titles and descriptions as one paste list</h3><span class="hrs">about 0.5 hours</span></div>
-    <p class="small" style="margin:0">The titles and descriptions above, gathered into one list Madi can paste page by page. Each page gets its own title so Squarespace's long site title doesn't stack on the end.</p>
+    <div class="hdr"><h3>6. Page titles and descriptions</h3><span class="hrs">about 0.5 hours</span></div>
+    <p class="small" style="margin:0">Bayless gives the proposed titles and descriptions in the appendix a final copy pass. Madi can paste the approved words page by page in Squarespace.</p>
   </div>
 
   <div class="prose">
-    <p><strong>If the hours run short,</strong> trim Expressive Art and Events first, then cut the FAQ to five questions. Keep the homepage and the provider section no matter what; they carry most of the upside.</p>
-    <p><strong>Keep the first content plan small.</strong> After the core pages, choose a pregnancy-loss answer or a first-appointment guide only if prospect questions and Madi's capacity justify it. One clinician-reviewed resource every six to eight weeks is a planning estimate, not an SEO quota. research/2026-09-23-gaps/findings.md F17.</p>
+    <p>If hours run short, prioritize the Home and About booking route, then the provider route. Later content depends on actual questions and Madi's capacity.</p>
   </div>
 </section>
 
@@ -983,34 +700,27 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
 <section id="madi" class="brk">
   <div class="sec-head">
     <p class="kicker">For Madi · no Kidsister hours</p>
-    <h2>What Madi can do herself, once the facts are settled</h2>
-    <p>Sized for a busy therapist: settings and listings, no writing. The minutes below are planning estimates. First, confirm the public practice name, credentials, contact details, visit modes, consult offer, insurance answer and current capacity in one short record.</p>
+    <h2>Things Madi can do herself</h2>
+    <p>These are settings and fact checks Madi can handle without using Bayless's copy hours. They depend on her approved practice details. The timing follows the 30/60/90 day plan; any minutes shown are planning estimates.</p>
   </div>
-  <p class="kicker" style="margin-top:6px">This week · on the website</p>
+  <p class="kicker" style="margin-top:6px">First 30 days · website</p>
   <ol class="todo">
-    <li><div>Change the About page's search title from "Team 1" and add its missing description.<span class="how">Pages, hover the page, gear icon, SEO. Paste the approved words from the copy brief.</span></div><span class="min">5 min</span></li>
-    <li><div>Clean the booking links: every button to <code>https://madisonpetersenllc.sessionshealth.com/</code> without the "?fbclid=..." part.<span class="how">14 buttons on Home, About, Expressive Art and Events.</span></div><span class="min">15 min</span></li>
-    <li><div>Make the existing footer phone number a tap-to-call link; test it on a phone.</div><span class="min">5 min</span></li>
-    <li><div>Point the menu's Services link at /#services instead of /home#services.</div><span class="min">2 min</span></li>
-    <li><div>Update or hide the April 2026 workshop on Events.</div><span class="min">5 min</span></li>
-    <li><div>Fix "HIPPA" to "HIPAA" on About.</div><span class="min">1 min</span></li>
-    <li><div>Retire the four placeholder blog posts, all dated 2019 and credited to Pamela Montanez; hide the unfinished blog page. Check links before removing their URLs.</div><span class="min">10 min</span></li>
-    <li><div>Connect the homepage newsletter block to an email list, or remove it.</div><span class="min">5 min</span></li>
-    <li><div>Fill in Squarespace's business information with Madi's approved practice facts and location display (question 2).</div><span class="min">10 min</span></li>
+    <li><div>Paste Bayless's approved page titles and descriptions. About needs the "Team 1" title replaced and a description added; fix "HIPPA" to "HIPAA" there too.<span class="how">Squarespace Pages, page settings, SEO.</span></div></li>
+    <li><div>After confirming the new-client path, point the 14 copied booking buttons to the clean <code>https://madisonpetersenllc.sessionshealth.com/request</code> where a free consult is intended. Keep other service buttons tied to their true offer. Point Services to <code>/#services</code>. Make the footer phone a <code>tel:</code> link. Test each route on a phone.</div></li>
+    <li><div>Update or hide the April 2026 event. If the workshop stays, try a smaller image. Check links to the four 2019 Pamela Montanez starter posts, then retire the posts and hide the unfinished blog.</div></li>
+    <li><div>Keep the newsletter only if it serves a real email list; rerun the same phone lab test after any change. Fill Squarespace's business information only with approved facts. Check the unnamed homepage link and small phone controls. Seth adds phone and email click events after checking the outgoing analytics fields.</div></li>
   </ol>
-  <p class="kicker" style="margin-top:26px">This month · listings</p>
-  <ol class="todo" style="counter-reset:t 9">
-    <li><div>Google Business Profile: first confirm the working location and whether clients can meet her there. Then check category, description, services, booking link and photos against the approved facts. Missouri telehealth alone does not make a Missouri service area.</div><span class="min">20 min</span></li>
-    <li><div>Correct PSI and Bornbir next. Bornbir says "LSCSW", suggests home visits and a free first face-to-face session; confirm the offer, then fix what is wrong.</div><span class="min">15 min</span></li>
-    <li><div>If the 2013 NPI record is hers (question 4): update the credential, the specialty to clinical social worker, and the practice address in the federal NPPES registry.</div><span class="min">15 min</span></li>
-    <li><div>If she has capacity and budget, check whether she already owns a Psychology Today profile and consider one paid trial. Compare real contacts before adding another directory.</div><span class="min">30 min</span></li>
-    <li><div>Reviews: do not solicit current or vulnerable clients. Check professional ethics and Google's conflict rules before asking colleagues or referrers; those relationships can create conflicts too. Never confirm a client relationship in a public reply, even when a reviewer volunteers it.</div><span class="min">policy first</span></li>
+  <p class="kicker" style="margin-top:26px">First 30 days · listings</p>
+  <ol class="todo" style="counter-reset:t 4">
+    <li><div>Confirm where clients actually meet Madi before changing the Google Business Profile address or service area. Check its category and services, then add or test a direct booking link to the approved consult route. A direct Profile-to-scheduler visit will not appear in site GA4. Missouri telehealth alone does not make a Missouri map area.</div></li>
+    <li><div>Match PSI and Bornbir to the approved facts. Bornbir has "LSCSW" and mentions home visits and a free first face-to-face session; Madi decides which details are current.</div></li>
+    <li><div>If the 2013 NPI record is hers, correct it and later check the public copies. If it is not hers, leave it alone.</div></li>
+    <li><div>For reviews, do not solicit current or vulnerable clients. Check professional ethics and Google's conflict rules before asking colleagues or referrers. Never confirm a client relationship in a public reply.</div></li>
   </ol>
-  <p class="kicker" style="margin-top:26px">Ongoing</p>
-  <ol class="todo" style="counter-reset:t 14">
-    <li><div>Every podcast (the Kinsey Olsen episode), workshop host (Stewart Farms Supper Club) or article: ask for a link to madisonpetersenllc.com. The PSI article is the model.</div><span class="min">1 min each</span></li>
-    <li><div>Once a month, Search Console, Performance, last 28 days: glance at which searches are rising. She already has the login.</div><span class="min">10 min a month</span></li>
-    <li><div>When Missouri practice authority and availability are confirmed, approve one useful statewide telehealth page and update true directory coverage. Do not extend the Tulsa Business Profile into Missouri solely for telehealth.</div><span class="min">later scope</span></li>
+  <p class="kicker" style="margin-top:26px">Days 31 to 90 · optional and ongoing</p>
+  <ol class="todo" style="counter-reset:t 8">
+    <li><div>If Madi has capacity, choose one paid directory trial or one clinician-reviewed resource, as the plan allows. At the 90-day check, share aggregate consult requests with Seth; keep patient details in the practice system.</div></li>
+    <li><div>When Missouri practice authority and availability are confirmed, approve one useful statewide telehealth page and update relevant directory coverage. Do not extend the Tulsa Business Profile into Missouri solely for telehealth.</div></li>
   </ol>
   <p class="source">Source: research/2026-09-23-gaps/findings.md F01 to F06 and F12; evidence/2026-09-23/local-and-directories.md; research/2026-09-23-technical/findings.md T01.</p>
 </section>
@@ -1019,14 +729,15 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
 <section id="questions">
   <div class="sec-head">
     <p class="kicker">Questions for Madi</p>
-    <h2>Five answers that change what the copy says</h2>
+    <h2>Facts Madi needs to confirm</h2>
   </div>
   <ol class="qs">
+    <li><strong>Is the free 20 minute telehealth consultation the right first step for every new therapy inquiry?</strong><span class="why">The request screen offers it and asks visitors to choose "Madi's Office" or "Telehealth." Madi should confirm the intended location, availability, insurance and what follows a request before those details are written beside the button.</span></li>
     <li><strong>Missouri: when can she legally take clients there, and will she have availability?</strong><span class="why">This decides when public copy can say Missouri. Her Instagram mentions both states, but it does not verify practice authority or availability.</span></li>
     <li><strong>Where do clients meet her, and which address should be public?</strong><span class="why">PSI and the scheduler show 4106 E 103rd St; the scheduler also lists Seen + Held at 5401 S Harvard Ave, while Google and the site show no street address. Keep the practice facts consistent, but follow each publisher's display rules. For Google, confirm an eligible client-facing office or in-person visits before choosing address and service-area settings. A home address alone does not settle the choice.</span></li>
     <li><strong>Does she still offer in-home sessions for newly postpartum moms?</strong><span class="why">Bornbir and Facebook say so, and an AI tool repeated it to a nurse. Her site doesn't mention it. Either the site says it or the listings stop saying it.</span></li>
     <li><strong>Is NPI 1295073807 hers?</strong><span class="why">A 2013 federal record lists Madison Paige Petersen, BSW, as a behavior analyst at Family &amp; Children's Services addresses, and Healthline and Doximity copy it. If it's hers, updating it is free.</span></li>
-    <li><strong>Is she comfortable being found and quoted by AI assistants?</strong><span class="why">Her site already allows it. For her goal of providers finding her, I'd keep it open, but it's her call, and some therapists feel strongly the other way.</span></li>
+    <li><strong>Is she comfortable being found and quoted by AI assistants?</strong><span class="why">Her site currently allows it. Madi's preference decides whether that setting stays.</span></li>
   </ol>
   <p class="small muted" style="margin-top:14px">One more fact for the FAQ, not a decision: whether she takes insurance or offers superbills.</p>
 </section>
@@ -1034,13 +745,13 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
 <!-- ============ MISSOURI ============ -->
 <section id="missouri">
   <div class="sec-head">
-    <p class="kicker">When the second state is real</p>
-    <h2>Missouri needs one clear page when she can take clients there</h2>
-    <p>The launch has a sequence: confirm authority to practice and actual openings, approve the service details, then publish. An Instagram mention is not enough to make the offer live.</p>
+    <p class="kicker">Missouri launch</p>
+    <h2>When and how to add Missouri</h2>
+    <p>Missouri copy waits for Madi to confirm that she can legally take clients there and has openings. Her Instagram mention does not establish either fact.</p>
   </div>
   <div class="prose">
-    <p>Once Madi confirms those facts, Bayless can write one useful Missouri telehealth page: who it is for, what happens in a first consult, fees and insurance as confirmed, how online appointments work, and a clear next step. Link it from Home and About. Missouri results already include practices with statewide online pages, so this is a real service explanation, not an empty-market shortcut.</p>
-    <p>Update the site and relevant directory state coverage together. Do not make a stack of thin city pages, or add Missouri to a Tulsa Business Profile just because telehealth reaches it. Google ties that profile's service area to its actual in-person operating model.</p>
+    <p>Once Madi approves the facts, Bayless could write one statewide telehealth page that explains who it is for, how online appointments work, confirmed fees and insurance, and the next step. Link it from Home and About. This is later scope, separate from the ten-hour Tulsa copy plan.</p>
+    <p>Madi can then update relevant directory coverage. The Tulsa Business Profile should reflect her actual in-person operating model; Missouri telehealth alone is not a reason to add a Missouri map area.</p>
   </div>
   <p class="source">Source: research/2026-09-23-gaps/findings.md F01, F02 and F12; research/2026-09-23-gaps/evidence/serp5.txt and serp6.txt. Missouri authority and availability remain unconfirmed.</p>
 </section>
@@ -1049,61 +760,52 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
 <section id="measure" class="brk">
   <div class="sec-head">
     <p class="kicker">Baseline and check-ins</p>
-    <h2>The numbers the next round compares against</h2>
-    <p>Recorded before any change ships, so the after is a real comparison. Every row names where it was read and when.</p>
+    <h2>How we will check progress</h2>
+    <p>These are the starting numbers for the 30/60/90 day check. Seth can compare equal 28-day periods after the approved copy goes live, while Madi checks whether the facts and referral route are right.</p>
   </div>
   <div class="tw"><table>
-    <thead><tr><th>Measure</th><th>Baseline</th><th>Where and when</th></tr></thead>
+    <thead><tr><th>Measure</th><th>Starting point</th><th>Source and date</th></tr></thead>
     <tbody>
-      <tr><td>Google clicks, last 28 days</td><td>15 clicks, 383 showings, 3.9% click rate, position 7.9</td><td>Search Console, 25 Aug to 21 Sep 2026</td></tr>
-      <tr><td>Google, last 12 months</td><td>172 clicks, about 2,420 showings, 7.1%, position 10.2</td><td>Search Console, 22 Sep 2025 to 21 Sep 2026</td></tr>
-      <tr><td>Last full month</td><td>August 2026: 15 clicks, 447 showings</td><td>Search Console daily table</td></tr>
+      <tr><td>Google clicks, last 28 days</td><td>15 clicks from 383 appearances</td><td>Search Console, 25 Aug to 21 Sep 2026</td></tr>
+      <tr><td>Google, last 12 months</td><td>172 clicks from about 2,420 appearances</td><td>Search Console, 22 Sep 2025 to 21 Sep 2026</td></tr>
       <tr><td>Searches for what she treats</td><td>13 named condition queries, 62 showings, 0 clicks in 12 months</td><td>Search Console query table</td></tr>
-      <tr><td>Tracked positions</td><td>"postpartum therapist in tulsa" 17.2 · "ppd therapist tulsa" 13.4 · "postpartum anxiety therapist tulsa" 24.5</td><td>Search Console, 12 months</td></tr>
-      <tr><td>Live results</td><td>About page 2nd for "miscarriage therapist tulsa"; on page one for "perinatal therapist tulsa"; not on page one for "postpartum therapist tulsa"; no map result for any</td><td>Google, one reading, 23 Sep 2026</td></tr>
-      <tr><td>Pages in Google</td><td>4 indexed; /cart and /home rightly not</td><td>Search Console, updated 20 Sep 2026</td></tr>
-      <tr><td>Google's AI features</td><td>51 showings since mid-May 2026</td><td>Search Console Generative AI report</td></tr>
-      <tr><td>AI answers</td><td>Earlier referral, identity and loss prompts named her in all three; own site cited in none. A separate broad postpartum prompt did not name her. Repeat the saved prompts separately; this is not a visibility score.</td><td>Perplexity, separate spot checks, 23 Sep 2026</td></tr>
-      <tr><td>Visits and booking path</td><td>156 visits, 124 people, 39 visits from search, 16 people to the booking page</td><td>Analytics, 10 Aug to 22 Sep 2026</td></tr>
+      <tr><td>AI answers</td><td>Earlier three prompts named her but did not cite her site; a separate broad postpartum prompt did not name her</td><td>Perplexity spot checks, 23 Sep 2026</td></tr>
+      <tr><td>Visits and booking path</td><td>156 visits, 124 people, 16 people to the booking page</td><td>Analytics, 10 Aug to 22 Sep 2026</td></tr>
       <tr><td>Booking clicks</td><td><code>booking_click</code> counting from 0 on 23 Sep 2026; completed appointments unknown here</td><td>Analytics key event</td></tr>
-      <tr><td>Phone speed</td><td>Performance 56; first words at 4.9 s on 9 Sep. Three-run homepage LCP median 4.89 s on 23 Sep</td><td>Lighthouse lab reads, 9 and 23 Sep 2026</td></tr>
-      <tr><td>Google reviews</td><td>2, both 5 stars</td><td>Google Maps, 23 Sep 2026</td></tr>
+      <tr><td>Phone and email clicks</td><td>Not configured; footer phone is plain text, Expressive Art email is already linked</td><td>Live route check, 23 Sep 2026</td></tr>
+      <tr><td>Consult requests</td><td>Practice-side baseline needed; no patient details in this report</td><td>Madi's aggregate count</td></tr>
+      <tr><td>Homepage on a simulated phone</td><td>Main words visible at median 4.89 seconds across three runs</td><td>Lighthouse lab tests, 23 Sep 2026</td></tr>
     </tbody>
   </table></div>
-  <div class="three" style="margin-top:18px">
-    <div class="card"><h3>The day before new copy goes live</h3><p class="small">A frozen snapshot of the site as it stands (titles, headings, text, speed), so the comparison is against the true before and not a half-changed site.</p></div>
-    <div class="card"><h3>30 days after</h3><p class="small">Seth checks recrawls, titles, first non-name searches and booking clicks per week. Madi checks that her public facts and referral path are accurate. Too early for a ranking verdict.</p></div>
-    <div class="card"><h3>90 days after</h3><p class="small">Seth compares the same 28-day search periods, tracked queries and fixed live searches. Madi supplies aggregate consult requests and capacity, plus a Business Profile screenshot if she chooses. Clicks and appointments stay separate.</p></div>
-  </div>
-  <h3 class="subhead">A small plan with an owner for every step</h3>
+  <p class="cap">The day before approved copy goes live, Seth should save a fresh page snapshot. The numbers above predate the changes and are a starting point, not a forecast.</p>
+  <h3 class="subhead">The 30/60/90 day plan</h3>
   <div class="tw"><table>
     <thead><tr><th>When</th><th>Owner</th><th>Next step</th><th>Estimated effort</th></tr></thead>
     <tbody>
-      <tr><td>Before launch</td><td>Madi</td><td>Approve master facts, capacity, insurance answer and secure referral route. Confirm Missouri authority separately.</td><td>30 to 45 min</td></tr>
-      <tr><td>Before launch</td><td>Bayless</td><td>Use the existing copy plan for Home, About, providers and questions; fold in the query map and Madi's answers.</td><td>Existing 10 hours</td></tr>
-      <tr><td>Before launch</td><td>Seth</td><td>Freeze the public baseline and review what analytics sends, especially forms and outbound links.</td><td>45 to 60 min, later scope</td></tr>
-      <tr><td>Days 1 to 30</td><td>Madi, then Seth</td><td>Correct site and scheduler, then GBP, PSI and Bornbir. Seth checks published pages and indexing.</td><td>Madi 45 to 90 min; Seth 30 to 45 min</td></tr>
-      <tr><td>Days 31 to 60</td><td>Madi and Bayless</td><td>If capacity allows, choose one directory trial <em>or</em> one clinician-reviewed resource. An optional referral sheet reuses the approved provider page.</td><td>Directory 30 to 60 min, or resource 1.5 to 2 hours plus review; sheet 1 to 2 hours if chosen</td></tr>
-      <tr><td>Days 61 to 90</td><td>Seth and Madi</td><td>Compare search visibility, booking clicks and aggregate consult requests. Decide whether another page or directory is worth the upkeep.</td><td>45 to 60 min together</td></tr>
+      <tr><td>Before launch</td><td>Madi</td><td>Confirm offer, request route, fees, insurance, locations, availability and secure referral route. Confirm Missouri authority separately.</td><td>30 to 45 min, estimate</td></tr>
+      <tr><td>Before launch</td><td>Bayless</td><td>Use the ten copy hours for the Home and About CTA context, a provider route and practical answers; review SEO fields with Madi.</td><td>Existing 10 hours</td></tr>
+      <tr><td>Before launch</td><td>Seth</td><td>Save a public baseline and inspect GA4 outbound parameters before adding phone and email events.</td><td>45 to 60 min, estimate; later scope</td></tr>
+      <tr><td>Days 1 to 30</td><td>Madi, then Seth</td><td>Update and test Home, About and booking buttons; add the phone link; check the Business Profile booking link and priority listing facts. Seth verifies routes and event firing on a phone.</td><td>Madi 45 to 90 min; Seth 30 to 45 min, estimates</td></tr>
+      <tr><td>Days 31 to 60</td><td>Seth and Madi</td><td>Read booking, phone and email clicks by landing page alongside aggregate consult requests and capacity. Check whether visitors reach the approved request route; correct any broken step before buying another listing.</td><td>30 to 60 min, estimate</td></tr>
+      <tr><td>Days 61 to 90</td><td>Seth and Madi</td><td>Compare equal 28-day search periods and monthly contact clicks with aggregate consult requests. Decide whether the next change belongs on Home, About, the scheduler route or a directory.</td><td>45 to 60 min together, estimate</td></tr>
     </tbody>
   </table></div>
-  <p class="small">Day 0 means the approved changes go live. Later writing, directory fees, privacy review and Missouri launch work are separate scope, not additions to Bayless's ten hours. Keep health details and appointment records in the practice system; use aggregate counts in this marketing check-in.</p>
+  <p class="small">Day 0 means the approved changes go live. These effort figures are estimates. Later writing, directory fees, privacy review and Missouri launch work are separate scope. Keep health details and appointment records in the practice system; use aggregate counts in this marketing check-in.</p>
   <p class="source">Source: research/2026-09-23-gaps/gaps.md, 90-day roadmap and F13 to F18; research/2026-09-23-technical/assets/measurement-plan.md; evidence/2026-09-23/ga4-read.md.</p>
 </section>
 
 <!-- ============ LIMITS ============ -->
 <section id="limits">
   <div class="sec-head">
-    <p class="kicker">Honest limits</p>
-    <h2>What this report doesn't cover</h2>
+    <p class="kicker">Measurement limits</p>
+    <h2>What these measurements cannot tell us</h2>
   </div>
   <div class="prose">
     <ul>
       <li>No keyword-volume tool on this engagement, so "how many people search this in Tulsa" is unknown; Search Console shows only searches where her site already appeared.</li>
-      <li>No backlink index. The PSI article is the one link I confirmed; there are probably others.</li>
       <li>No access to her Business Profile dashboard, so its views and calls aren't here.</li>
       <li>Live Google results are one reading from one signed-in browser; the AI answers are one run of one tool.</li>
-      <li>Speed is lab-tested only; Google has no real-visitor speed data for the site yet.</li>
+      <li>Speed is lab-tested only; the saved Search Console view reported no real-visitor Core Web Vitals data. We did not inspect the later scheduler form or available appointment slots.</li>
     </ul>
   </div>
 </section>
@@ -1111,12 +813,12 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
 <!-- ============ HANDOVER ============ -->
 <section id="appendix" class="brk">
   <div class="sec-head">
-    <p class="kicker">Appendix · paste and check</p>
-    <h2>Ready-to-use pieces for the next round</h2>
+    <p class="kicker">Appendix</p>
+    <h2>Ready-to-use titles, code and checklists</h2>
     <p>These are proposed words and settings, not changes to Madi's live site. Confirm the practice facts and let Bayless give the sentences a final copy pass before publishing.</p>
   </div>
-  <h3>Page titles and descriptions</h3>
-  <p class="small">Paste into each page's Squarespace SEO fields, then check the live title because the site title may be added automatically. These refine the earlier title and description drafts in the ten-hour brief where they differ. The four finished-page titles are 50 to 60 characters; descriptions are 140 to 160 characters. The provider page title stays in the copy brief until that page exists.</p>
+  <h3>Proposed page titles and descriptions</h3>
+  <p class="small">Bayless can revise these drafts, then Madi can paste the approved words into each page's Squarespace SEO fields. Check the published title because Squarespace may add the site title automatically. The provider row is for a new page and should wait until Madi approves its facts.</p>
   <div class="tw"><table>
     <thead><tr><th>Page</th><th>Proposed title</th><th>Proposed description</th></tr></thead>
     <tbody>
@@ -1124,12 +826,12 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
       <tr><td>About</td><td>Tulsa Miscarriage &amp; Postpartum Therapist | Madi Petersen</td><td>Meet Madi Petersen, LCSW, PMH-C, a Tulsa therapist for pregnancy, postpartum, pregnancy loss and infertility. Start with a free 20 minute consult.</td></tr>
       <tr><td>Expressive Art</td><td>Expressive Art Therapy in Tulsa | Madison Petersen</td><td>Explore Madi Petersen's expressive art therapy and studio time in Tulsa. Learn how she works, who studio time is for, and how to arrange a free consult.</td></tr>
       <tr><td>Events</td><td>Perinatal Support Workshops in Tulsa | Madison Petersen</td><td>See Madi Petersen's Tulsa workshops and support groups for pregnancy, postpartum and loss. Check current dates and ask about a free 20 minute consult.</td></tr>
-      <tr><td>/home, blog and four starter posts</td><td colspan="2">Keep /home canonical to Home. Retire the unfinished blog and four 2019 Pamela Montanez starter posts instead of polishing their snippets. Check inbound links before removing URLs.</td></tr>
+      <tr><td>For providers, proposed</td><td>For OBs, Midwives &amp; Doulas | Madison Petersen, LCSW, Tulsa</td><td>Referring a patient? Madi Petersen, LCSW, PMH-C, sees women in Tulsa and by telehealth across Oklahoma for perinatal mood, anxiety and loss.</td></tr>
     </tbody>
   </table></div>
   <p class="source">Source: research/2026-09-23-technical/assets/titles-and-descriptions.md; evidence/2026-09-23/gsc-queries-12mo.txt; research/2026-09-23-technical/evidence/crawl-and-accessibility.json.</p>
 
-  <h3>Code that tells search engines who the practice is</h3>
+  <h3>Practice details for search engines</h3>
   <p class="small">After Madi approves the name, phone, credentials and links, Seth can place this JSON-LD inside a <code>&lt;script type="application/ld+json"&gt;</code> tag in Squarespace site-wide header code injection, if her plan supports it. Check the published page for duplicate or conflicting nodes. Oklahoma is the current service state; add Missouri only after authority and availability are confirmed. This helps machines read facts already visible to people; it does not promise a rich result.</p>
   <pre class="codebox"><code>{
   "@context": "https://schema.org",
@@ -1161,9 +863,9 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
   ]
 }</code></pre>
   <p class="small">The separate FAQ code is a draft. Several answers say [MADI TO CONFIRM]; publish the answers visibly first, then use matching code only after she confirms them. A code block cannot replace the actual answers on the page.</p>
-  <p class="source">Source: research/2026-09-23-technical/assets/person-and-practice.jsonld and evidence/schema-validation.json; evidence/2026-09-23/local-and-directories.md.</p>
+  <p class="source">Source: research/2026-09-23-technical/assets/person-and-practice.jsonld and research/2026-09-23-technical/evidence/schema-validation.json; evidence/2026-09-23/local-and-directories.md.</p>
 
-  <h3>A short Business Profile checklist</h3>
+  <h3>Google Business Profile checklist</h3>
   <ul>
     <li>Confirm the real in-person operating model, ownership and primary category. Compare Psychotherapist or Counselor only if Google's available choices and Madi's actual practice fit.</li>
     <li>Use the approved services, the description below and a tested booking link. An optional booking URL tag is <code>?utm_source=google&amp;utm_medium=organic&amp;utm_campaign=gbp_booking</code>, only if Sessions Health accepts it.</li>
@@ -1174,7 +876,7 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
   <p class="small"><strong>Description to confirm:</strong> Madi Petersen, LCSW, PMH-C, offers therapy for women navigating pregnancy, postpartum, infertility and pregnancy loss in Tulsa. She offers in-person appointments and telehealth across Oklahoma, with a free 20 minute consult.</p>
   <p class="source">Source: research/2026-09-23-technical/assets/gbp-checklist.md; research/2026-09-23-gaps/findings.md F01 to F03.</p>
 
-  <h3>Count the steps to a consult without collecting health details</h3>
+  <h3>Monthly measurement checklist</h3>
   <div class="tw"><table>
     <thead><tr><th>Where</th><th>What to record monthly</th><th>What it means</th></tr></thead>
     <tbody>
@@ -1184,25 +886,9 @@ footer{padding:50px 0 60px;color:var(--muted);font-size:14px}
       <tr><td>Practice system</td><td>Aggregate consult requests and a few broad referral-source categories</td><td>Actual requests and available capacity, kept outside GA4</td></tr>
     </tbody>
   </table></div>
-  <p class="small">For PSI or Instagram links Madi controls, use UTM tags on the link into her site. Send GA4 only a fixed link label and clean destination host. Never send diagnoses, pregnancy or loss details, form fields, names, phone numbers, email addresses, full scheduler URLs or Sessions Health activity. Review enhanced measurement and the privacy wording before adding forms or tags.</p>
+  <p class="small">For Instagram and PSI links Madi controls, tag the inbound link to her site, for example <code>?utm_source=instagram&amp;utm_medium=social&amp;utm_campaign=profile</code> and <code>?utm_source=psi&amp;utm_medium=referral&amp;utm_campaign=profile</code>. For a Business Profile link directly to Sessions Health, test whether a tagged URL still opens the request route; site GA4 cannot observe that direct click. Send GA4 only a fixed link label and clean destination host. Never send diagnoses, pregnancy or loss details, form fields, names, phone numbers, email addresses, full scheduler URLs or Sessions Health activity. Review enhanced measurement and privacy wording before adding forms or tags.</p>
   <p class="source">Source: research/2026-09-23-technical/assets/measurement-plan.md; research/2026-09-23-gaps/findings.md F13 to F16; evidence/2026-09-23/ga4-read.md.</p>
 </section>
-
-<footer>
-  <p><strong>Instruments.</strong> Site crawl, heading and link audit, Lighthouse 12 under devtools and simulated throttling, 9 and 23 Sep 2026. Google Search Console (URL-prefix property https://www.madisonpetersenllc.com/) and Google Analytics 4 (property 549414357), read 23 Sep 2026. Live page fetches, a 390 px mobile check, homepage captures of both sites, Google results and Maps in a signed-in Chrome, the PSI directory, Bornbir, Healthline, the federal NPI registry, and Perplexity's API, all 23 Sep 2026. New research from research/2026-09-23-gaps/ and research/2026-09-23-technical/ is cited where used. Every figure is a measurement on the date shown unless it's marked as an estimate or judgment.</p>
-  <p>Prepared by Seth Swango for Kidsister Creative.</p>
-
-  <div class="internal">
-    <p class="kicker">For Bayless only · cut before anything goes to Madi</p>
-    <ul class="small">
-      <li>An earlier internal note said Search Console "refused the domain" on 15 Sep. That was about our access, not a missing property: Madi has owned a verified property since April 2025, which is why there are 16 months of data.</li>
-      <li>The first markdown draft said every click came from her name. More precisely: all 24 clicks with named queries were name searches; Google withholds the queries behind the other 148 clicks. No named condition query shows a click.</li>
-      <li>The brief says own practice since 2021; her site and her PSI bio both say 2020. The copy uses 2020 unless you know otherwise.</li>
-      <li>Analytics looks thin (124 people) because it only started collecting around 10 August, not because traffic dropped.</li>
-      <li>I made one private exploration in her Analytics while reading the booking path; it should be private to my login by default, and I can delete it.</li>
-    </ul>
-  </div>
-</footer>
 
 </div>
 </body>
