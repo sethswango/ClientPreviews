@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" role="img" aria-label="Times Google showed her site, by month" class="chart">
+<title>Times Google showed her site, by month</title>
+<line x1="44" x2="668" y1="204.0" y2="204.0" stroke="#e6dfd2" stroke-width="1"/>
+<text x="36" y="208.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">0</text>
+<line x1="44" x2="668" y1="166.8" y2="166.8" stroke="#e6dfd2" stroke-width="1"/>
+<text x="36" y="170.8" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">100</text>
+<line x1="44" x2="668" y1="129.6" y2="129.6" stroke="#e6dfd2" stroke-width="1"/>
+<text x="36" y="133.6" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">200</text>
+<line x1="44" x2="668" y1="92.4" y2="92.4" stroke="#e6dfd2" stroke-width="1"/>
+<text x="36" y="96.4" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">300</text>
+<line x1="44" x2="668" y1="55.2" y2="55.2" stroke="#e6dfd2" stroke-width="1"/>
+<text x="36" y="59.2" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">400</text>
+<line x1="44" x2="668" y1="18.0" y2="18.0" stroke="#e6dfd2" stroke-width="1"/>
+<text x="36" y="22.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">500</text>
+<path d="M51.5,204.0 L51.5,197.2 Q51.5,193.2 55.5,193.2 L71.5,193.2 Q75.5,193.2 75.5,197.2 L75.5,204.0 Z" fill="#1d7a58"><title>Jun 2025: 29 impressions</title></path>
+<text x="63.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jun</text>
+<text x="63.5" y="235.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">2025</text>
+<path d="M90.5,204.0 L90.5,192.7 Q90.5,188.7 94.5,188.7 L110.5,188.7 Q114.5,188.7 114.5,192.7 L114.5,204.0 Z" fill="#1d7a58"><title>Jul 2025: 41 impressions</title></path>
+<text x="102.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jul</text>
+<path d="M129.5,204.0 L129.5,183.8 Q129.5,179.8 133.5,179.8 L149.5,179.8 Q153.5,179.8 153.5,183.8 L153.5,204.0 Z" fill="#1d7a58"><title>Aug 2025: 65 impressions</title></path>
+<text x="141.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Aug</text>
+<path d="M168.5,204.0 L168.5,184.9 Q168.5,180.9 172.5,180.9 L188.5,180.9 Q192.5,180.9 192.5,184.9 L192.5,204.0 Z" fill="#1d7a58"><title>Sep 2025: 62 impressions</title></path>
+<text x="180.5" y="174.9" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11.5" fill="#1f2320">62</text>
+<text x="180.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Sep</text>
+<path d="M207.5,204.0 L207.5,182.3 Q207.5,178.3 211.5,178.3 L227.5,178.3 Q231.5,178.3 231.5,182.3 L231.5,204.0 Z" fill="#1d7a58"><title>Oct 2025: 69 impressions</title></path>
+<text x="219.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Oct</text>
+<path d="M246.5,204.0 L246.5,183.4 Q246.5,179.4 250.5,179.4 L266.5,179.4 Q270.5,179.4 270.5,183.4 L270.5,204.0 Z" fill="#1d7a58"><title>Nov 2025: 66 impressions</title></path>
+<text x="258.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Nov</text>
+<path d="M285.5,204.0 L285.5,173.8 Q285.5,169.8 289.5,169.8 L305.5,169.8 Q309.5,169.8 309.5,173.8 L309.5,204.0 Z" fill="#1d7a58"><title>Dec 2025: 92 impressions</title></path>
+<text x="297.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Dec</text>
+<path d="M324.5,204.0 L324.5,158.5 Q324.5,154.5 328.5,154.5 L344.5,154.5 Q348.5,154.5 348.5,158.5 L348.5,204.0 Z" fill="#1d7a58"><title>Jan 2026: 133 impressions</title></path>
+<text x="336.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jan</text>
+<text x="336.5" y="235.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">2026</text>
+<path d="M363.5,204.0 L363.5,151.8 Q363.5,147.8 367.5,147.8 L383.5,147.8 Q387.5,147.8 387.5,151.8 L387.5,204.0 Z" fill="#1d7a58"><title>Feb 2026: 151 impressions</title></path>
+<text x="375.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Feb</text>
+<path d="M402.5,204.0 L402.5,139.6 Q402.5,135.6 406.5,135.6 L422.5,135.6 Q426.5,135.6 426.5,139.6 L426.5,204.0 Z" fill="#1d7a58"><title>Mar 2026: 184 impressions</title></path>
+<text x="414.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Mar</text>
+<path d="M441.5,204.0 L441.5,152.9 Q441.5,148.9 445.5,148.9 L461.5,148.9 Q465.5,148.9 465.5,152.9 L465.5,204.0 Z" fill="#1d7a58"><title>Apr 2026: 148 impressions</title></path>
+<text x="453.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Apr</text>
+<path d="M480.5,204.0 L480.5,138.1 Q480.5,134.1 484.5,134.1 L500.5,134.1 Q504.5,134.1 504.5,138.1 L504.5,204.0 Z" fill="#1d7a58"><title>May 2026: 188 impressions</title></path>
+<text x="492.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">May</text>
+<path d="M519.5,204.0 L519.5,112.4 Q519.5,108.4 523.5,108.4 L539.5,108.4 Q543.5,108.4 543.5,112.4 L543.5,204.0 Z" fill="#1d7a58"><title>Jun 2026: 257 impressions</title></path>
+<text x="531.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jun</text>
+<path d="M558.5,204.0 L558.5,54.7 Q558.5,50.7 562.5,50.7 L578.5,50.7 Q582.5,50.7 582.5,54.7 L582.5,204.0 Z" fill="#1d7a58"><title>Jul 2026: 412 impressions</title></path>
+<text x="570.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jul</text>
+<path d="M597.5,204.0 L597.5,41.7 Q597.5,37.7 601.5,37.7 L617.5,37.7 Q621.5,37.7 621.5,41.7 L621.5,204.0 Z" fill="#1d7a58"><title>Aug 2026: 447 impressions</title></path>
+<text x="609.5" y="31.7" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11.5" fill="#1f2320">447</text>
+<text x="609.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Aug</text>
+<path d="M636.5,204.0 L636.5,114.3 Q636.5,110.3 640.5,110.3 L656.5,110.3 Q660.5,110.3 660.5,114.3 L660.5,204.0 Z" fill="#9cc8b4"><title>Sep 2026: 252 impressions (1 to 21 Sep only)</title></path>
+<text x="648.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Sep</text>
+<text x="668" y="235.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10" fill="#6f716a">Sep 2026: 1 to 21 only</text>
+</svg>

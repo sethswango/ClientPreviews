@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" role="img" aria-label="Clicks from Google, by month" class="chart">
+<title>Clicks from Google, by month</title>
+<line x1="44" x2="668" y1="204.0" y2="204.0" stroke="#e6dfd2" stroke-width="1"/>
+<text x="36" y="208.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">0</text>
+<line x1="44" x2="668" y1="142.0" y2="142.0" stroke="#e6dfd2" stroke-width="1"/>
+<text x="36" y="146.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">10</text>
+<line x1="44" x2="668" y1="80.0" y2="80.0" stroke="#e6dfd2" stroke-width="1"/>
+<text x="36" y="84.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">20</text>
+<line x1="44" x2="668" y1="18.0" y2="18.0" stroke="#e6dfd2" stroke-width="1"/>
+<text x="36" y="22.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" fill="#6f716a">30</text>
+<path d="M51.5,204.0 L51.5,189.4 Q51.5,185.4 55.5,185.4 L71.5,185.4 Q75.5,185.4 75.5,189.4 L75.5,204.0 Z" fill="#1d7a58"><title>Jun 2025: 3 clicks</title></path>
+<text x="63.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jun</text>
+<text x="63.5" y="235.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">2025</text>
+<path d="M90.5,204.0 L90.5,170.8 Q90.5,166.8 94.5,166.8 L110.5,166.8 Q114.5,166.8 114.5,170.8 L114.5,204.0 Z" fill="#1d7a58"><title>Jul 2025: 6 clicks</title></path>
+<text x="102.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jul</text>
+<path d="M129.5,204.0 L129.5,158.4 Q129.5,154.4 133.5,154.4 L149.5,154.4 Q153.5,154.4 153.5,158.4 L153.5,204.0 Z" fill="#1d7a58"><title>Aug 2025: 8 clicks</title></path>
+<text x="141.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Aug</text>
+<path d="M168.5,204.0 L168.5,127.4 Q168.5,123.4 172.5,123.4 L188.5,123.4 Q192.5,123.4 192.5,127.4 L192.5,204.0 Z" fill="#1d7a58"><title>Sep 2025: 13 clicks</title></path>
+<text x="180.5" y="117.4" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11.5" fill="#1f2320">13</text>
+<text x="180.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Sep</text>
+<path d="M207.5,204.0 L207.5,139.8 Q207.5,135.8 211.5,135.8 L227.5,135.8 Q231.5,135.8 231.5,139.8 L231.5,204.0 Z" fill="#1d7a58"><title>Oct 2025: 11 clicks</title></path>
+<text x="219.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Oct</text>
+<path d="M246.5,204.0 L246.5,158.4 Q246.5,154.4 250.5,154.4 L266.5,154.4 Q270.5,154.4 270.5,158.4 L270.5,204.0 Z" fill="#1d7a58"><title>Nov 2025: 8 clicks</title></path>
+<text x="258.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Nov</text>
+<path d="M285.5,204.0 L285.5,127.4 Q285.5,123.4 289.5,123.4 L305.5,123.4 Q309.5,123.4 309.5,127.4 L309.5,204.0 Z" fill="#1d7a58"><title>Dec 2025: 13 clicks</title></path>
+<text x="297.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Dec</text>
+<path d="M324.5,204.0 L324.5,133.6 Q324.5,129.6 328.5,129.6 L344.5,129.6 Q348.5,129.6 348.5,133.6 L348.5,204.0 Z" fill="#1d7a58"><title>Jan 2026: 12 clicks</title></path>
+<text x="336.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jan</text>
+<text x="336.5" y="235.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">2026</text>
+<path d="M363.5,204.0 L363.5,152.2 Q363.5,148.2 367.5,148.2 L383.5,148.2 Q387.5,148.2 387.5,152.2 L387.5,204.0 Z" fill="#1d7a58"><title>Feb 2026: 9 clicks</title></path>
+<text x="375.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Feb</text>
+<path d="M402.5,204.0 L402.5,139.8 Q402.5,135.8 406.5,135.8 L422.5,135.8 Q426.5,135.8 426.5,139.8 L426.5,204.0 Z" fill="#1d7a58"><title>Mar 2026: 11 clicks</title></path>
+<text x="414.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Mar</text>
+<path d="M441.5,204.0 L441.5,108.8 Q441.5,104.8 445.5,104.8 L461.5,104.8 Q465.5,104.8 465.5,108.8 L465.5,204.0 Z" fill="#1d7a58"><title>Apr 2026: 16 clicks</title></path>
+<text x="453.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Apr</text>
+<path d="M480.5,204.0 L480.5,127.4 Q480.5,123.4 484.5,123.4 L500.5,123.4 Q504.5,123.4 504.5,127.4 L504.5,204.0 Z" fill="#1d7a58"><title>May 2026: 13 clicks</title></path>
+<text x="492.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">May</text>
+<path d="M519.5,204.0 L519.5,102.6 Q519.5,98.6 523.5,98.6 L539.5,98.6 Q543.5,98.6 543.5,102.6 L543.5,204.0 Z" fill="#1d7a58"><title>Jun 2026: 17 clicks</title></path>
+<text x="531.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jun</text>
+<path d="M558.5,204.0 L558.5,46.8 Q558.5,42.8 562.5,42.8 L578.5,42.8 Q582.5,42.8 582.5,46.8 L582.5,204.0 Z" fill="#1d7a58"><title>Jul 2026: 26 clicks</title></path>
+<text x="570.5" y="36.8" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11.5" fill="#1f2320">26</text>
+<text x="570.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Jul</text>
+<path d="M597.5,204.0 L597.5,115.0 Q597.5,111.0 601.5,111.0 L617.5,111.0 Q621.5,111.0 621.5,115.0 L621.5,204.0 Z" fill="#1d7a58"><title>Aug 2026: 15 clicks</title></path>
+<text x="609.5" y="105.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11.5" fill="#1f2320">15</text>
+<text x="609.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Aug</text>
+<path d="M636.5,204.0 L636.5,121.2 Q636.5,117.2 640.5,117.2 L656.5,117.2 Q660.5,117.2 660.5,121.2 L660.5,204.0 Z" fill="#9cc8b4"><title>Sep 2026: 14 clicks (1 to 21 Sep only)</title></path>
+<text x="648.5" y="220.0" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10.5" fill="#6f716a">Sep</text>
+<text x="668" y="235.0" text-anchor="end" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="10" fill="#6f716a">Sep 2026: 1 to 21 only</text>
+</svg>
