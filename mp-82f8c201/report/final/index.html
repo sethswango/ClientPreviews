@@ -20,7 +20,7 @@ body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.56 "Public Sa
 .masthead{display:flex;justify-content:space-between;gap:14px;align-items:baseline;padding-bottom:22px;border-bottom:1px solid var(--line);font-size:13px;color:var(--muted)}
 .brand{font:600 21px Fraunces,Georgia,serif;color:var(--ink)}
 h1,h2{font-family:Fraunces,Georgia,serif;font-weight:600;line-height:1.16;letter-spacing:-.018em}
-h1{font-size:clamp(34px,5.5vw,52px);max-width:780px;margin:30px 0 16px}
+h1{font-size:clamp(34px,5.5vw,52px);max-width:780px;margin:30px 0 16px;text-wrap:balance}h2{text-wrap:balance}
 h2{font-size:30px;margin:42px 0 14px;padding-top:16px;border-top:1px solid var(--line)}
 p{margin:0 0 15px}
 h1+p{font-size:17px;color:var(--ink2);max-width:780px}
@@ -35,7 +35,7 @@ tr:last-child td{border-bottom:0}
 ol{padding-left:24px;margin:16px 0 22px}
 li{padding-left:4px;margin-bottom:11px}
 main>p:last-child{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:15px;margin-top:26px}
-@media(max-width:650px){.sheet{padding:18px 16px 42px}.masthead{display:block}.masthead span{display:block}h2{font-size:26px}table{display:block;overflow-x:auto;white-space:normal}table th,table td{min-width:150px}}
+@media(max-width:650px){.sheet{padding:18px 16px 42px}.masthead{display:block}.masthead span{display:block}h2{font-size:26px}table,thead,tbody,tr,td{display:block;width:100%}table{background:none;border:0}thead tr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}tbody tr{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin-bottom:12px}td{border:0;padding:0 0 10px}td:last-child{padding-bottom:0}td:first-child{font-weight:600}td[data-label]::before{content:attr(data-label);display:block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink2);margin-bottom:2px}td:first-child::before{display:none}}
 @media print{
   body{background:white;font-size:12.5pt;line-height:1.52}
   .sheet{max-width:none;padding:0}
@@ -45,7 +45,10 @@ main>p:last-child{font-size:13px;color:var(--muted);border-top:1px solid var(--l
   h1+p{font-size:10pt;max-width:none}
   h2{font-size:17pt;margin:27px 0 11px;padding-top:12px;break-after:avoid}
   p{margin-bottom:10px}
-  table{font-size:10.5pt;line-height:1.42;margin:11px 0 16px;break-inside:auto}
+  table{font-size:10.5pt;line-height:1.42;margin:11px 0 16px;break-inside:auto;background:none;border:0}
+  th,td{background:var(--card);border-left:1px solid var(--line);border-right:1px solid var(--line)}
+  th{background:#f6f3eb;border-top:1px solid var(--line)}
+  tr:last-child td{border-bottom:1px solid var(--line)}
   th,td{padding:6px 8px}
   th{font-size:7.5pt}
   tr{break-inside:avoid}
@@ -79,19 +82,19 @@ main>p:last-child{font-size:13px;color:var(--muted);border-top:1px solid var(--l
 </thead>
 <tbody>
 <tr>
-<td>Home</td>
-<td>Put the free consult button beside a short description of pregnancy, postpartum and loss therapy in Tulsa. Say that Missouri sessions are virtual only.</td>
-<td>Open the first button on a phone and confirm it reaches the new client request screen.</td>
+<td data-label="Place">Home</td>
+<td data-label="Suggested change">Put the free consult button beside a short description of pregnancy, postpartum and loss therapy in Tulsa. Say that Missouri sessions are virtual only.</td>
+<td data-label="Check after publishing">Open the first button on a phone and confirm it reaches the new client request screen.</td>
 </tr>
 <tr>
-<td>About and fees</td>
-<td>Add a consult button near the fees. State that Madi does not bill insurance and offers superbills.</td>
-<td>Read the page as a new visitor and test that button.</td>
+<td data-label="Place">About and fees</td>
+<td data-label="Suggested change">Add a consult button near the fees. State that Madi does not bill insurance and offers superbills.</td>
+<td data-label="Check after publishing">Read the page as a new visitor and test that button.</td>
 </tr>
 <tr>
-<td>Shared booking links</td>
-<td>Use the clean <code>/request</code> URL for new client consult buttons. Remove the copied <code>fbclid</code> suffix. Keep art and event buttons tied to their actual offers.</td>
-<td>Test each destination; compare booking clicks with aggregate consult requests.</td>
+<td data-label="Place">Shared booking links</td>
+<td data-label="Suggested change">Use the clean <code>/request</code> URL for new client consult buttons. Remove the copied <code>fbclid</code> suffix. Keep art and event buttons tied to their actual offers.</td>
+<td data-label="Check after publishing">Test each destination; compare booking clicks with aggregate consult requests.</td>
 </tr>
 </tbody>
 </table>
@@ -107,24 +110,24 @@ main>p:last-child{font-size:13px;color:var(--muted);border-top:1px solid var(--l
 </thead>
 <tbody>
 <tr>
-<td>Bornbir and Facebook</td>
-<td>Remove in-home postpartum sessions. Bornbir also prints "LSCSW" and describes a free first face-to-face session; correct these to LCSW and the free 20 minute new client consultation.</td>
+<td data-label="Where">Bornbir and Facebook</td>
+<td data-label="What Madi can update">Remove in-home postpartum sessions. Bornbir also prints "LSCSW" and describes a free first face-to-face session; correct these to LCSW and the free 20 minute new client consultation.</td>
 </tr>
 <tr>
-<td>PSI directory and scheduler</td>
-<td>Use one accurate form of <strong>her Tulsa office address</strong> wherever the full address must appear. The saved scheduler also listed a second Tulsa location; remove it if it is no longer a place she sees clients. Check the public view after each edit.</td>
+<td data-label="Where">PSI directory and scheduler</td>
+<td data-label="What Madi can update">Use one accurate form of <strong>her Tulsa office address</strong> wherever the full address must appear. The saved scheduler also listed a second Tulsa location; remove it if it is no longer a place she sees clients. Check the public view after each edit.</td>
 </tr>
 <tr>
-<td>Website</td>
-<td>"Tulsa, Oklahoma" or "Tulsa office" can describe in-person care without printing her street address. Give the exact location through the appointment process to clients who need it. State clearly that Missouri care is virtual only.</td>
+<td data-label="Where">Website</td>
+<td data-label="What Madi can update">"Tulsa, Oklahoma" or "Tulsa office" can describe in-person care without printing her street address. Give the exact location through the appointment process to clients who need it. State clearly that Missouri care is virtual only.</td>
 </tr>
 <tr>
-<td>Google Business Profile</td>
-<td>Review its current service-area setting. Madi sees clients at her Tulsa office and no longer travels to clients, so a hidden-address service-area setup does not accurately describe this practice. If the office meets Google's client-facing location requirements, use the real office address and check whether Google displays it publicly. Google expects an accurate address for a location clients visit; its rules also require permanent fixed signage for an address shown on the profile. If the office does not qualify, seek guidance from Google Business Profile support on the existing profile instead of presenting her as a traveling business. Do not add Missouri as a map service area for virtual care.</td>
+<td data-label="Where">Google Business Profile</td>
+<td data-label="What Madi can update">Review its current service-area setting. Madi sees clients at her Tulsa office and no longer travels to clients, so a hidden-address service-area setup does not accurately describe this practice. If the office meets Google's client-facing location requirements, use the real office address and check whether Google displays it publicly. Google expects an accurate address for a location clients visit; its rules also require permanent fixed signage for an address shown on the profile. If the office does not qualify, seek guidance from Google Business Profile support on the existing profile instead of presenting her as a traveling business. Do not add Missouri as a map service area for virtual care.</td>
 </tr>
 <tr>
-<td>Older clinician records</td>
-<td>A 2013 NPI record and sites that copied it show older credentials, specialty, phone and locations. Madi should check whether that NPI is hers before editing it. If it is, correct the source and check each copy separately.</td>
+<td data-label="Where">Older clinician records</td>
+<td data-label="What Madi can update">A 2013 NPI record and sites that copied it show older credentials, specialty, phone and locations. Madi should check whether that NPI is hers before editing it. If it is, correct the source and check each copy separately.</td>
 </tr>
 </tbody>
 </table>
@@ -141,34 +144,34 @@ main>p:last-child{font-size:13px;color:var(--muted);border-top:1px solid var(--l
 </thead>
 <tbody>
 <tr>
-<td>Home</td>
-<td style="text-align: right;">3 hours</td>
-<td>Keep "Hey, you're a person too." Add a plain description of pregnancy, postpartum and pregnancy loss therapy, in person at her Tulsa office and virtually across Oklahoma and Missouri. Put the free 20 minute consult beside an early button. Link to fees and About.</td>
+<td data-label="Page">Home</td>
+<td data-label="Time" style="text-align: right;">3 hours</td>
+<td data-label="Copy direction">Keep "Hey, you're a person too." Add a plain description of pregnancy, postpartum and pregnancy loss therapy, in person at her Tulsa office and virtually across Oklahoma and Missouri. Put the free 20 minute consult beside an early button. Link to fees and About.</td>
 </tr>
 <tr>
-<td>About</td>
-<td style="text-align: right;">1.5 hours</td>
-<td>Preserve the introduction and professional training paragraph. Give the page a clear heading, explain LCSW and PMH-C in ordinary language, and put a consult button beside fees. Say she does not bill insurance and offers superbills. Resolve the existing 2020/2021 practice date before changing it.</td>
+<td data-label="Page">About</td>
+<td data-label="Time" style="text-align: right;">1.5 hours</td>
+<td data-label="Copy direction">Preserve the introduction and professional training paragraph. Give the page a clear heading, explain LCSW and PMH-C in ordinary language, and put a consult button beside fees. Say she does not bill insurance and offers superbills. Resolve the existing 2020/2021 practice date before changing it.</td>
 </tr>
 <tr>
-<td>For providers</td>
-<td style="text-align: right;">2 hours</td>
-<td>Build on the About paragraph for OB practices, midwives and other referrers. Explain who she helps, Tulsa office and virtual visit options, insurance and superbills, and the free consult. Madi supplies an appropriate secure referral route; public forms and marketing email should not collect patient histories.</td>
+<td data-label="Page">For providers</td>
+<td data-label="Time" style="text-align: right;">2 hours</td>
+<td data-label="Copy direction">Build on the About paragraph for OB practices, midwives and other referrers. Explain who she helps, Tulsa office and virtual visit options, insurance and superbills, and the free consult. Madi supplies an appropriate secure referral route; public forms and marketing email should not collect patient histories.</td>
 </tr>
 <tr>
-<td>Common questions</td>
-<td style="text-align: right;">2 hours</td>
-<td>Answer the brief's questions about the first visit, cost, session frequency and how therapy works. State the confirmed free consult, insurance answer, Tulsa office and Missouri virtual-only care. Madi writes or approves answers about clinical care, partners, and treatment length. Do not describe in-home visits.</td>
+<td data-label="Page">Common questions</td>
+<td data-label="Time" style="text-align: right;">2 hours</td>
+<td data-label="Copy direction">Answer the brief's questions about the first visit, cost, session frequency and how therapy works. State the confirmed free consult, insurance answer, Tulsa office and Missouri virtual-only care. Madi writes or approves answers about clinical care, partners, and treatment length. Do not describe in-home visits.</td>
 </tr>
 <tr>
-<td>Expressive Art and Events</td>
-<td style="text-align: right;">1 hour</td>
-<td>Make each button name its actual offer. Check whether Studio Time is for existing clients, and update or hide the April 2026 event.</td>
+<td data-label="Page">Expressive Art and Events</td>
+<td data-label="Time" style="text-align: right;">1 hour</td>
+<td data-label="Copy direction">Make each button name its actual offer. Check whether Studio Time is for existing clients, and update or hide the April 2026 event.</td>
 </tr>
 <tr>
-<td>Page titles and descriptions</td>
-<td style="text-align: right;">0.5 hour</td>
-<td>Replace About's "Team 1" title and add its missing description. Use the same clear service and location words people can read on the page.</td>
+<td data-label="Page">Page titles and descriptions</td>
+<td data-label="Time" style="text-align: right;">0.5 hour</td>
+<td data-label="Copy direction">Replace About's "Team 1" title and add its missing description. Use the same clear service and location words people can read on the page.</td>
 </tr>
 </tbody>
 </table>
